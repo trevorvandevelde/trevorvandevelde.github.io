@@ -4,10 +4,7 @@ html, body {
     font-family: "Karla", sans-serif;
     color: #545454;
     position: relative;
-    background-color: #f7f0c6;
-    animation-name: color-shift;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
+    background-color: white;
   }
   
   a {
@@ -54,11 +51,6 @@ html, body {
       to {letter-spacing: 4px;}
   }
   
-  @keyframes color-shift {
-      0% {background-color: #f2eed0;}
-      50% {background-color: #f2d5d0;}
-    100% {background-color: #f2eed0;}
-  }
 
   
   
