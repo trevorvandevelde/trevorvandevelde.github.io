@@ -1,0 +1,63 @@
+html, body {
+    height: 97%;
+    margin : 0px;
+    font-family: "NeutraText-LightAlt", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    color: black;
+    position: relative;
+    background-color: whitesmoke;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    cursor: crosshair;
+  }
+  
+  #center {
+    text-align: left;
+    left: 50%;
+    top: 20%;
+    height: 400px;
+    margin-top: 50px;
+    bottom: 30px;
+  }
+  
+  #title {
+    text-align: left;
+    width: 100%;
+    font-size: 40px;
+    white-space: nowrap; /* Keeps the content on a single line */
+    letter-spacing: .07em; /* Adjust as needed */
+    padding: 15px;
+  }
+
+  #links {
+    bottom: 30px;
+    right: 30px;
+    text-align: right;
+    max-width: 300px;
+    position: absolute;
+    font-size: 35px;
+    letter-spacing: 1px;
+    padding: 10px;
+  }
+  
+  .link:hover{
+    animation-name: space-apart;
+    animation-duration: 1s;
+    letter-spacing: 4px;
+  }
+  
+  @keyframes space-apart {
+      from {letter-spacing: 1px;}
+      to {letter-spacing: 4px;}
+  }
+  
+
+  
+  
