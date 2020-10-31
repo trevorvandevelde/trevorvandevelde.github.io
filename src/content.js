@@ -185,7 +185,7 @@ let content = {
             body: (
                 <div>
                     <p>for solo snare drum and electronics</p>
-                    <p>written for Benjamin Damann</p>
+                    <p>written for Benjamin Damannn</p>
                 </div>
             ),
         },
