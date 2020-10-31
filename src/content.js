@@ -190,13 +190,21 @@ let content = {
             ),
         },
 
+        "this-cooks" : {
+            body: (
+                <div>
+                    <p> for hacked rice cooker and electronics</p>
+                </div>
+            ),
+        },
+
         body: (
             <div>    
                 <h3>opera</h3>
                 <p><Link to="/projects/the-body-you-dream-of-is-your-own"> the body you dream of is your own</Link>-2020</p>
 
                 <h3>orchestra/large ensemble</h3>
-                <p><Link to="/projects/the-air-we-breathe-in-intimate-spces"> the air we breathe in intimate spaces</Link>-2019</p>
+                <p><Link to="/projects/the-air-we-breathe-in-intimate-spaces"> the air we breathe in intimate spaces</Link>-2019</p>
 
                 <h3>chamber works</h3>
                 <p><Link to="projects/animal-farm">animal farm</Link>-2018</p>
@@ -205,7 +213,7 @@ let content = {
                 <p><Link to="/projects/sometimes-i-ponder-in-a-variety-of-colors">sometimes i ponder in a variety of colors</Link>-2016</p>
 
                 <h3>solos/duos</h3>
-
+                <p><Link to="/projects/this-cooks">this cooks</Link>-2020</p>
                 <p><Link to="/projects/screaming-when-im-alone">screaming when im alone</Link>-2020</p>
                 <p><Link to="/projects/the-way-the-body-decays">the way the body decays</Link>-2019</p>
                 <p><Link to="/projects/one-point">one-point</Link>-2018</p>
