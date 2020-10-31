@@ -53,7 +53,7 @@ class App extends React.Component {
     const [newStructure, newParents, bodies] = parseStructure(structure);
     console.log(bodies);
     return (
-      <BrowserRouter history={history} basename={process.env.PUBLIC_URL}>
+      <BrowserRouter>
         <Route
           path="/"
           exact
