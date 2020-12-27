@@ -49,11 +49,10 @@ let content = {
                     </center>
                 </p>
                 <p> 
-                    Trevor Van de Velde (b. 1998) is a multi-instrumentalist and composer 
-                    from Fresno currently based in Berkeley, California. 
+                    Trevor Van de Velde (b. 1998) is a composer and creative technologist from Fresno, CA. 
                 </p>
                 <p>
-                    Trevor’s works are designed to explore the intrinsic relationships formed by performance practice. 
+                    His research is oriented towards electroacoustic composition, mixed-media installation, hacking appliances, as well as exploring the space between body and technology. Trevor’s works are designed to explore the intrinsic relationships formed by performance practice. 
                     Often utilizing found objects and electronics, Trevor’s works aims to form an 
                     aspectual interface between performer, space, and source of sound. 
                 </p>
@@ -61,9 +60,10 @@ let content = {
                     His works have been premiered at Hertz Hall at the University of California Berkeley, CSU Fresno, and the Center for New Music (SF). 
                 </p>
                 <p>
-                    Trevor is currently a Masters student at Dartmouth College studying composition and sonic arts with Ash Fure and Michael Casey. 
+                    Trevor is currently a Masters student at Dartmouth College studying composition and sonic arts with Ash Fure, Michael Casey, and César Alvarez. 
                     He also holds a B.A. in Data Science and Music from UC Berkeley where he studied composition with Ken Ueno, Ed Campion, and Franck Bedrossian. 
-                    He is the recipient of the 2018 Nicola De Lorenzo Prize in Music Composition, 2019 UC Berkeley Music Theater Prize, and the 2020 Eisner Prize for the Creative Arts. Trevor was also a selected participant in New Amsterdam Record’s Composer Lab Workshop.​He is currently the founder and keyboardist of the experimental music ensemble, drefor as well as Berkeley Noise, an undergraduate new music ensemble based at UC Berkeley.
+                    He is the recipient of the 2018 Nicola De Lorenzo Prize in Music Composition, 2019 UC Berkeley Music Theater Prize, and the 2020 Eisner Prize for the Creative Arts. 
+                    Trevor was also a selected participant in New Amsterdam Record’s Composer Lab Workshop.​
                 
                 </p>
                 
@@ -84,6 +84,43 @@ let content = {
     },
     
     projects: {
+
+        "fwd-fwd-fwd-viral-zoom-video": {
+            body: (
+                <div>
+                    <p>
+                        fwd:fwd:fwd:viral zoom video is a video piece made with Piper Hill and Hamed Sinno. 
+                    </p>
+
+                    <p>
+                        This piece studies the different functions of the oral cavity, in a sequence that traverses the trajectory of a contagious infection through breath, infection, contagion, and suffocation. 
+                        Using social isolation as a composition tool, the piece imagines breath as a shared resource, where what one exhales, the other must inhale, and so on, manufacturing a kind of shared intimacy to bridge the dark spaces in which the performers are isolated.     
+                        When one person becomes infected, the sonic implications of that infection then virulently dictate changes  in the other two performers’ behavior, in the absence of adequate containment. 
+                    </p>
+                    <p>
+                        This project was made for The Poetry Project's 47th Annual New Year's Day Marathon. Find more information at {" "} <a target="_blank" href="https://www.poetryproject.org/events/the-47th-annual-new-year-s-day-marathon"> https://www.poetryproject.org/events/the-47th-annual-new-year-s-day-marathon</a>
+                    </p>
+
+                    <ReactPlayer url ="https://vimeo.com/490207816" controls = "true"></ReactPlayer>
+                </div>
+            ),
+        },
+        
+        "moss-gardens-VR": {
+            body: (
+                <div>
+                    <p>
+                        Inspired by David Bowie and Brian Eno's Moss Garden , moss gardens VR is a virtual reality environment in which users can create and sculpt their own audio spatialized ambient audio through the placement of 'sound flowers'. 
+                        Each different type of flower contains its own unique sound attribute that plays when planted in the world. 
+                    </p>
+                    <p>    
+                        This project was created in Unit for James Mahoney's AR/VR development class at Dartmouth College. 
+                    </p>
+
+                    <ReactPlayer url ="https://vimeo.com/490276819" controls = "true"></ReactPlayer>
+                </div>
+            ),
+        },
        
         "the-body-you-dream-of-is-your-own": {
             body: (
@@ -96,7 +133,7 @@ let content = {
                     </p>
 
                     <p>
-                    The work consists of 8 cathode ray tube (CRT) televisions, each connected to a Raspberry Pi 3 Model B+.  Each Pi was fitted with HPlayer2 (https://github.com/Hemisphere-Project/HPlayer2, 
+                        The work consists of 8 cathode ray tube (CRT) televisions, each connected to a Raspberry Pi 3 Model B+.  Each Pi was fitted with HPlayer2 (https://github.com/Hemisphere-Project/HPlayer2, 
                         developed by Thomas Bohl at Hemisphere-Project) and controlled over ethernet via Max. The piece consisted of various ‘scenes’ which certain videos with different probabilities of playing as 
                         represented as markov chains. Throughout the piece these probability distributions would change and new images or sounds would emerge among the televisions resulting in an ever changing cloud of white noise.
 
@@ -194,12 +231,19 @@ let content = {
             body: (
                 <div>
                     <p> for hacked rice cooker and electronics</p>
+                    
+                    <ReactPlayer url ="https://vimeo.com/490679062" controls = "true"></ReactPlayer>
                 </div>
             ),
         },
 
         body: (
             <div>    
+                <h3>virtual reality</h3>
+                <p><Link to="/projects/moss-gardens-vr"> moss gardens VR</Link>-2020</p>
+
+                <h3>video projects</h3>
+                <p><Link to="/projects/fwd-fwd-fwd-viral-zoom-video">fwd:fwd:fwd viral zoom video</Link></p>
                 <h3>opera</h3>
                 <p><Link to="/projects/the-body-you-dream-of-is-your-own"> the body you dream of is your own</Link>-2020</p>
 
