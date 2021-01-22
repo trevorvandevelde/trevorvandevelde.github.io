@@ -23,10 +23,13 @@ class Home extends React.Component {
     }
     return returnCommands;
   };
+
   render() {
     const { isMobile, unProcessedCommands } = this.props;
     const commands = this.commandCreator(unProcessedCommands);
+    
     return (
+
       <Container fluid>
         <Row
         style={{
@@ -76,7 +79,7 @@ class Home extends React.Component {
               allowTypo: true,
               scoreFn: null,
             }}
-            //   style={{ width: "100vh" }}
+            //style={{ width: "100vh" }}
             spinner={false}
           />
         </div>

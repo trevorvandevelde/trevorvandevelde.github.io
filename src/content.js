@@ -21,10 +21,49 @@ let content = {
     about: {
         cv: {
             body: (
+                <div>
                 <p>
                     <a
                         target="_blank"
                         href="https://drive.google.com/file/d/1L-t0Zb3X_H-OKBwCJ0wmfx1LkBegsFWB/view?usp=sharing"
+                    >
+                        cv pdf
+                    </a>
+                    .
+                </p>
+                <p>
+                    <a
+                        target="_blank"
+                        href="https://drive.google.com/file/d/1Gupj6G8ejUxQpbmu5oj3b-7eTUv7MlJY/view?usp=sharing"
+                    >
+                        resume pdf
+                    </a>
+                    .
+                </p>
+                
+                <p>
+                    <a
+                        target="_blank"
+                        href="https://drive.google.com/file/d/1Q3W6itdT2O0EijM9fsY-NgE8QjDxz3H_/view?usp=sharing"
+                    >
+                        portfolio pdf
+                    </a>
+                    .
+                </p>
+
+                </div>
+        
+            
+                
+            ),
+        },
+
+        portfolio: {
+            body: (
+                <p>
+                    <a
+                        target="_blank"
+                        href="https://drive.google.com/file/d/1Q3W6itdT2O0EijM9fsY-NgE8QjDxz3H_/view?usp=sharing"
                     >
                         pdf
                     </a>
@@ -231,8 +270,18 @@ let content = {
             body: (
                 <div>
                     <p> for hacked rice cooker and electronics</p>
-                    
+                    <p>Performed by Trevor Van de Velde and Robert Hurley</p>
                     <ReactPlayer url ="https://vimeo.com/490679062" controls = "true"></ReactPlayer>
+                </div>
+            ),
+        },
+
+        "slf-ctrl" : {  
+            body: (
+                <div>
+                    <p> typing game utilizing the computer keyboard and webcam</p>
+                    <p>This projected was developed using p5.js and Tone.js javascript libraries</p>
+                    <p>Access the game {" "} <a target="_blank" href="https://trevorvandevelde.com/slf-ctrl"> here </a></p>
                 </div>
             ),
         },
@@ -242,8 +291,11 @@ let content = {
                 <h3>virtual reality</h3>
                 <p><Link to="/projects/moss-gardens-vr"> moss gardens VR</Link>-2020</p>
 
+                <h3>web games</h3>
+                <p><Link to="/projects/slf-ctrl"> slf-ctrl</Link>-2021</p>
+
                 <h3>video projects</h3>
-                <p><Link to="/projects/fwd-fwd-fwd-viral-zoom-video">fwd:fwd:fwd viral zoom video</Link></p>
+                <p><Link to="/projects/fwd-fwd-fwd-viral-zoom-video">fwd:fwd:fwd viral zoom video</Link>-2020</p>
                 <h3>opera</h3>
                 <p><Link to="/projects/the-body-you-dream-of-is-your-own"> the body you dream of is your own</Link>-2020</p>
 
