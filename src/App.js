@@ -8,7 +8,7 @@ import Queue from "queue-fifo";
 
 
 // this is the overall structure of the website, that gets passed along into all of the child components
-const lastUpdated = "12/12/2020"; //LAST UPDATED WEBSITE
+const lastUpdated = "6/11/2021"; //LAST UPDATED WEBSITE
 
 
 const parseStructure = (structure) => { //SEARCHING FOR PAGES

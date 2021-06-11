@@ -25,22 +25,12 @@ let content = {
                 <p>
                     <a
                         target="_blank"
-                        href="https://drive.google.com/file/d/1L-t0Zb3X_H-OKBwCJ0wmfx1LkBegsFWB/view?usp=sharing"
-                    >
-                        cv pdf
-                    </a>
-                    .
-                </p>
-                <p>
-                    <a
-                        target="_blank"
                         href="https://drive.google.com/file/d/1Gupj6G8ejUxQpbmu5oj3b-7eTUv7MlJY/view?usp=sharing"
                     >
                         resume pdf
                     </a>
                     .
                 </p>
-                
                 <p>
                     <a
                         target="_blank"
@@ -50,7 +40,6 @@ let content = {
                     </a>
                     .
                 </p>
-
                 </div>
         
             
@@ -88,7 +77,7 @@ let content = {
                     </center>
                 </p>
                 <p> 
-                    Trevor Van de Velde (b. 1998) is a composer and creative technologist from Fresno, CA. 
+                    Trevor Van de Velde (b. 1998) is a composer and creative technologist from Fresno, CA currently based in Hanover, New Hampshire. 
                 </p>
                 <p>
                     His research is oriented towards electroacoustic composition, mixed-media installation, hacking appliances, as well as exploring the space between body and technology. Trevor’s works are designed to explore the intrinsic relationships formed by performance practice. 
@@ -102,7 +91,8 @@ let content = {
                     Trevor is currently a Masters student at Dartmouth College studying composition and sonic arts with Ash Fure, Michael Casey, and César Alvarez. 
                     He also holds a B.A. in Data Science and Music from UC Berkeley where he studied composition with Ken Ueno, Ed Campion, and Franck Bedrossian. 
                     He is the recipient of the 2018 Nicola De Lorenzo Prize in Music Composition, 2019 UC Berkeley Music Theater Prize, and the 2020 Eisner Prize for the Creative Arts. 
-                    Trevor was also a selected participant in New Amsterdam Record’s Composer Lab Workshop.​
+                    
+                    Trevor has also attended festivals such as New Music On the Point, The Summer Institute of Contemporary Performance, Labo Montreal, and the New Amsterdam Record's Composers Lab. 
                 
                 </p>
                 
@@ -257,11 +247,11 @@ let content = {
             ),
         },
 
-        "screaming-when-im-alone" : {
+        "singing" : {
             body: (
                 <div>
                     <p>for solo snare drum and electronics</p>
-                    <p>written for Benjamin Damannn</p>
+                    <p>written for the Summer Institute for Contemporary Performance Practice</p>
                 </div>
             ),
         },
@@ -276,12 +266,41 @@ let content = {
             ),
         },
 
+        "breathing-bells" : {  
+            body: (
+                <div>
+                    <p> webgame utilizing various breath buffers and a meditation gong</p>
+                    <p>Instructions: Click on the Mouse on various spots on the webpage to place a breathing bell. Reload page to clear. </p>
+                    <p>This projected was developed using p5.js and Tone.js javascript libraries</p>
+                    <p>Access the game {" "} <a target="_blank" href="https://trevorvandevelde.com/breathingBells/"> here </a></p>
+                </div>
+            ),
+        },
+
+        "i-like-stringssss" : {  
+            body: (
+                <div>
+                    <p> for string quartet and amplified voices </p>
+                    <p> workshopped and performed by the Jack Quartet for New Music on the Point 2021 </p>
+                </div>
+            ),
+        },
+
+        "pull-スレッド" : {  
+            body: (
+                <div>
+                    <p> for solo cello and electronics </p>
+                    <p> Written and Premiered by Robert Hurley at UC Berkeley, 2021 </p>
+                </div>
+            ),
+        },
+
         "slf-ctrl" : {  
             body: (
                 <div>
-                    <p> typing game utilizing the computer keyboard and webcam</p>
-                    <p>This projected was developed using p5.js and Tone.js javascript libraries</p>
-                    <p>Access the game {" "} <a target="_blank" href="https://trevorvandevelde.com/slf-ctrl"> here </a></p>
+                    <p> for solo performer and game interface </p>
+                    <p> Created using MaxMSP and Processing.js </p>
+                    <ReactPlayer url ="https://vimeo.com/557884798" controls = "true"></ReactPlayer>
                 </div>
             ),
         },
@@ -292,10 +311,14 @@ let content = {
                 <p><Link to="/projects/moss-gardens-vr"> moss gardens VR</Link>-2020</p>
 
                 <h3>web games</h3>
+                <p><Link to="/projects/breathing-bells"> breathing bells</Link>-2021</p>
+
+                <h3>game performance</h3>
                 <p><Link to="/projects/slf-ctrl"> slf-ctrl</Link>-2021</p>
 
                 <h3>video projects</h3>
                 <p><Link to="/projects/fwd-fwd-fwd-viral-zoom-video">fwd:fwd:fwd viral zoom video</Link>-2020</p>
+
                 <h3>opera</h3>
                 <p><Link to="/projects/the-body-you-dream-of-is-your-own"> the body you dream of is your own</Link>-2020</p>
 
@@ -303,14 +326,16 @@ let content = {
                 <p><Link to="/projects/the-air-we-breathe-in-intimate-spaces"> the air we breathe in intimate spaces</Link>-2019</p>
 
                 <h3>chamber works</h3>
+                <p><Link to="projects/i-like-stringssss">i like stringssss</Link> 2021</p>
                 <p><Link to="projects/animal-farm">animal farm</Link>-2018</p>
                 <p><Link to="projects/these-suck">these suck</Link>-2018</p>
                 <p><Link to="/projects/electric-vibratar">electric vibratar</Link>-2017</p>
                 <p><Link to="/projects/sometimes-i-ponder-in-a-variety-of-colors">sometimes i ponder in a variety of colors</Link>-2016</p>
 
                 <h3>solos/duos</h3>
+                <p><Link to="/projects/pull-スレッド">pull.スレッド</Link>2021</p>
+                <p><Link to="/projects/singing">singing</Link>-2021</p>
                 <p><Link to="/projects/this-cooks">this cooks</Link>-2020</p>
-                <p><Link to="/projects/screaming-when-im-alone">screaming when im alone</Link>-2020</p>
                 <p><Link to="/projects/the-way-the-body-decays">the way the body decays</Link>-2019</p>
                 <p><Link to="/projects/one-point">one-point</Link>-2018</p>
                 <p><Link to="/projects/zero-point">zero-point</Link>-2017</p>
