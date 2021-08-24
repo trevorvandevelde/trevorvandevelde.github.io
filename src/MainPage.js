@@ -203,11 +203,12 @@ if (isMobile) {
             style={{
               position: "fixed",
               top: "30%",
-              //bottom: "100%",
+              bottom: "0%",
               width: isMobile ? "70%" : "50%",
               //height: "100%",
               transform: "translate(-0%, -0px)",
               overflow: "hidden",
+              
             }}
           >
           <div>
@@ -252,12 +253,13 @@ if (isMobile) {
           <div
             style={{
               //position: "absolute",
-              // bottom: "0%",
+              //bottom: "0%",
               // right: "20px",
               // marginLeft: "auto",
               // marginRight: 0,
               // float: "left",
               // align: "right",
+              //color: "#505050",
               width: "70%",
               //right: "50px",
               fontSize: "0.9em",
@@ -269,12 +271,12 @@ if (isMobile) {
       </div>
             </Col>
 
-            <Col style={{ marginTop: "40px" }}> {/* This is the right side of the page */}
+            <Col style={{ marginTop: "40px", }}> {/* This is the right side of the page */}
               <b>
                 <Link to={this.props.prev}>&lt;&lt; {this.props.prev}</Link> 
               </b> 
-              <h2 style={{ marginTop: "38px" }}>{this.props.title}</h2>
-              <div style={{ marginTop: "20px" }}>
+              <h2 style={{ marginTop: "38px"}}>{this.props.title}</h2>
+              <div style={{ marginTop: "20px"}}>
                 {this.props.body} <br />{" "}
                 <p style={{ fontSize: "0.8em" }}>
                   Last updated: {this.props.lastUpdated}

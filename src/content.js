@@ -1,16 +1,14 @@
 import React from "react";
 import ReactPlayer from "react-player";
 import { Link } from "react-router-dom";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import ReactMediumImg from "react-medium-zoom";
+//import Container from "react-bootstrap/Container";
+//import Row from "react-bootstrap/Row";
+//import Col from "react-bootstrap/Col";
+//import ReactMediumImg from "react-medium-zoom";
 
 /////////////////////////////////////////////////////////Photos/////////////////////////////////////////////////////////////
 import curr_pic from "./pictures/profile_pic_1.jpg"; 
 
-
-/////////////////////////////////////////////////////////Photos/////////////////////////////////////////////////////////////
 
 let defaultContent = (
     <p>
@@ -252,6 +250,7 @@ let content = {
                 <div>
                     <p>for solo snare drum and electronics</p>
                     <p>written for the Summer Institute for Contemporary Performance Practice</p>
+                    <ReactPlayer url ="https://vimeo.com/566741660" controls = "true"></ReactPlayer>
                 </div>
             ),
         },
@@ -282,6 +281,7 @@ let content = {
                 <div>
                     <p> for string quartet and amplified voices </p>
                     <p> workshopped and performed by the Jack Quartet for New Music on the Point 2021 </p>
+                    <ReactPlayer url ="https://vimeo.com/569095481" controls = "true"></ReactPlayer>
                 </div>
             ),
         },
@@ -306,12 +306,13 @@ let content = {
         },
 
         body: (
-            <div>    
-                <h3>virtual reality</h3>
+            <div>   
+                <h3>selected works</h3> 
+                {/*<h3>virtual reality</h3>
                 <p><Link to="/projects/moss-gardens-vr"> moss gardens VR</Link>-2020</p>
 
                 <h3>web games</h3>
-                <p><Link to="/projects/breathing-bells"> breathing bells</Link>-2021</p>
+                <p><Link to="/projects/breathing-bells"> breathing bells</Link>-2021</p> */}
 
                 <h3>game performance</h3>
                 <p><Link to="/projects/slf-ctrl"> slf-ctrl</Link>-2021</p>
@@ -327,16 +328,16 @@ let content = {
 
                 <h3>chamber works</h3>
                 <p><Link to="projects/i-like-stringssss">i like stringssss</Link> 2021</p>
-                <p><Link to="projects/animal-farm">animal farm</Link>-2018</p>
+                {/*<p><Link to="projects/animal-farm">animal farm</Link>-2018</p> */}
                 <p><Link to="projects/these-suck">these suck</Link>-2018</p>
-                <p><Link to="/projects/electric-vibratar">electric vibratar</Link>-2017</p>
-                <p><Link to="/projects/sometimes-i-ponder-in-a-variety-of-colors">sometimes i ponder in a variety of colors</Link>-2016</p>
+                {/*<p><Link to="/projects/electric-vibratar">electric vibratar</Link>-2017</p>*/}
+                {/*<p><Link to="/projects/sometimes-i-ponder-in-a-variety-of-colors">sometimes i ponder in a variety of colors</Link>-2016</p>*/}
 
                 <h3>solos/duos</h3>
                 <p><Link to="/projects/pull-スレッド">pull.スレッド</Link>2021</p>
                 <p><Link to="/projects/singing">singing</Link>-2021</p>
-                <p><Link to="/projects/this-cooks">this cooks</Link>-2020</p>
-                <p><Link to="/projects/the-way-the-body-decays">the way the body decays</Link>-2019</p>
+                {/*<p><Link to="/projects/this-cooks">this cooks</Link>-2020</p>*/}
+                {/*<p><Link to="/projects/the-way-the-body-decays">the way the body decays</Link>-2019</p> */}
                 <p><Link to="/projects/one-point">one-point</Link>-2018</p>
                 <p><Link to="/projects/zero-point">zero-point</Link>-2017</p>
             </div>

@@ -16,6 +16,6 @@ img.zoomed {
   right: 0;
   bottom: 0;
   display: none;
-  background: white;
+  background:pink;
   transform: translateZ(0);
 }
