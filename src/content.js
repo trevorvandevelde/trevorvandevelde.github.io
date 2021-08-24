@@ -305,7 +305,6 @@ let content = {
 
         body: (
             <div>   
-                <h3>selected works</h3> 
                 {/*<h3>virtual reality</h3>
                 <p><Link to="/projects/moss-gardens-vr"> moss gardens VR</Link>-2020</p>
 
