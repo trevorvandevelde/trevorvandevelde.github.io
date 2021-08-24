@@ -5,8 +5,6 @@ import { Link } from "react-router-dom";
 //import Row from "react-bootstrap/Row";
 //import Col from "react-bootstrap/Col";
 //import ReactMediumImg from "react-medium-zoom";
-
-/////////////////////////////////////////////////////////Photos/////////////////////////////////////////////////////////////
 import curr_pic from "./pictures/profile_pic_1.jpg"; 
 
 
