@@ -10,7 +10,7 @@ import curr_pic from "./pictures/profile_pic_1.jpg";
 
 let defaultContent = (
     <p>
-        Error 404: Page under construction. I should probably fix this soon....
+        Error 404: You are somewhere where I did not expect to you to be... very suspicious of me AND you
     </p>
 );
 let content = {
@@ -73,22 +73,21 @@ let content = {
                     </center>
                 </p>
                 <p> 
-                    Trevor Van de Velde (b. 1998) is a composer and creative technologist from Fresno, CA currently based in Hanover, New Hampshire. 
+                    Trevor Van de Velde (b. 1998) is a composer and creative technologist currently based in Hanover, New Hampshire. 
                 </p>
                 <p>
-                    His research is oriented towards electroacoustic composition, mixed-media installation, hacking appliances, as well as exploring the space between body and technology. Trevor’s works are designed to explore the intrinsic relationships formed by performance practice. 
-                    Often utilizing found objects and electronics, Trevor’s works aims to form an 
+                    His research is oriented towards electroacoustic composition, mixed-media installation, hacking appliances, as well as exploring the space between technology and self. Trevor’s works are designed to explore the intrinsic relationships formed between play and technology. 
+                    Often utilizing mixed-media and electronics, Trevor’s works aims to form an 
                     aspectual interface between performer, space, and source of sound. 
                 </p>
                 <p>
-                    His works have been premiered at Hertz Hall at the University of California Berkeley, CSU Fresno, and the Center for New Music (SF). 
+                    He has worked with a variety of performers and ensembles such as JACK Quartet, The Living Earth Show, Lucy Dhegrae, as well as many other artists dedicated in blurring the lines between media. 
                 </p>
                 <p>
                     Trevor is currently a Masters student at Dartmouth College studying composition and sonic arts with Ash Fure, Michael Casey, and César Alvarez. 
-                    He also holds a B.A. in Data Science and Music from UC Berkeley where he studied composition with Ken Ueno, Ed Campion, and Franck Bedrossian. 
-                    He is the recipient of the 2018 Nicola De Lorenzo Prize in Music Composition, 2019 UC Berkeley Music Theater Prize, and the 2020 Eisner Prize for the Creative Arts. 
-                    
-                    Trevor has also attended festivals such as New Music On the Point, The Summer Institute of Contemporary Performance, Labo Montreal, and the New Amsterdam Record's Composers Lab. 
+                    He also holds a B.A. in Computer Science and Music from UC Berkeley where he studied composition with Ken Ueno, Ed Campion, and Franck Bedrossian. 
+                    He is the recipient of the 2018 Nicola De Lorenzo Prize in Music Composition, and the Eisner Prize for the Creative Arts. 
+                    Trevor has also attended festivals such as New Music On the Point (2021), The Summer Institute of Contemporary Performance (2021), Labo Montreal (2021), and a selected participant in the New Amsterdam Record's Composers Lab (2019). 
                 
                 </p>
                 
@@ -289,6 +288,7 @@ let content = {
                 <div>
                     <p> for solo cello and electronics </p>
                     <p> Written and Premiered by Robert Hurley at UC Berkeley, 2021 </p>
+                    <ReactPlayer url ="https://vimeo.com/562077371" controls = "true"></ReactPlayer>
                 </div>
             ),
         },
@@ -345,7 +345,7 @@ let content = {
         body: (
             <div>
                 <h3>publications</h3>
-                <p>coming soon</p>
+                <p>coming soon - once i write something!</p>
             </div>
         )
             
