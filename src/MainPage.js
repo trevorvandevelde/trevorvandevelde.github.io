@@ -235,7 +235,7 @@ if (isMobile) {
               allowTypo: true,
               scoreFn: null,
             }}
-            style={{ width: "70vh" }}
+            style={{ width: "50vh" }}
             spinner={false}
           />
         </div>
@@ -271,14 +271,14 @@ if (isMobile) {
       </div>
             </Col>
 
-            <Col style={{ marginTop: "40px", }}> {/* This is the right side of the page */}
+            <Col style={{ marginTop: "40px", backgroundColor: "#FFFFFF" }}> {/* This is the right side of the page */}
               <b>
                 <Link to={this.props.prev}>&lt;&lt; {this.props.prev}</Link> 
               </b> 
               <h2 style={{ marginTop: "38px"}}>{this.props.title}</h2>
               <div style={{ marginTop: "20px"}}>
                 {this.props.body} <br />{" "}
-                <p style={{ fontSize: "0.8em" }}>
+                <p style={{ fontSize: "0.8em" , backgroundColor: "#FFFFFF"}}>
                   Last updated: {this.props.lastUpdated}
                 </p>
                 <br />

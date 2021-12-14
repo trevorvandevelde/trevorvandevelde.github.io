@@ -107,6 +107,7 @@ class Home extends React.Component {
               //right: "50px",
               fontSize: "0.9em",
               color: "#505050",
+              backgroundColor: "#505050"
             }}
           >
           </div>

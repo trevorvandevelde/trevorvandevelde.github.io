@@ -1,6 +1,8 @@
 import React from "react";
 import ReactPlayer from "react-player";
+import Embed from 'react-embed';
 import { Link } from "react-router-dom";
+import Iframe from 'react-iframe';
 //import Container from "react-bootstrap/Container";
 //import Row from "react-bootstrap/Row";
 //import Col from "react-bootstrap/Col";
@@ -9,11 +11,14 @@ import curr_pic from "./pictures/profile_pic_1.jpg";
 
 
 let defaultContent = (
+    <div>
     <p>
         Error 404: You are somewhere where I did not expect to you to be... very suspicious of me AND you
     </p>
+    </div>
 );
 let content = {
+    
     about: {
         cv: {
             body: (
@@ -105,6 +110,71 @@ let content = {
                 <p>email: trevorvandevelde (at) gmail (dot) com</p>
             </div>
         )
+    },
+
+    applications:{
+        "brown" : { body: (
+            <div>
+                <p>Portfolio for Brown University for Ph.D in Multi-Media Composition</p>
+            </div>
+            )
+        },
+        "columbia" : { body: (
+            <div>
+                <p>Portfolio for Columbia University for D.M.A in Music Composition</p>
+            </div>
+            )
+        },
+        "stanford" : { body: (
+            <div>
+                <h3>Portfolio for Stanford University for D.M.A in Music Composition</h3>
+                <p>Thank you for your consideration.</p>
+                <p><Link to="/about/cv">Link to CV</Link></p>
+                <p><Link to="/about/cv">Link to SOP</Link></p>
+                <p><Link to="/about/cv">Link to Writing Sample</Link></p>
+
+
+                <h4>Hacking Grains, for 2 performers & multi-channel hacked rice cookers</h4>
+                <p>
+                    h a c k i n g - g r a i n s is an installation & performance project that explores the web of relationships
+                    between technology, ritual, Asian-Identity, and Asian-Futurity.         
+                </p>
+                <p>recommended excerpts: 0:00 – 2:00, 8:00-11:00, 14:00 – 16:00</p>
+                
+                <ReactPlayer url ="https://vimeo.com/646697399" controls = "true"></ReactPlayer>
+                <Iframe url="https://e.issuu.com/embed.html?d=slf.ctrl&u=trevorvandevelde"
+                    width="640px"
+                    height="360px"
+                    id="myIssuuHackingGrains"
+                    className="myIssuuDoc"
+                    display="initial"
+                    position="relative"/>
+                
+            
+            </div>
+            )
+        },
+        "upenn" : { body: (
+            <div>
+                <p>Portfolio for University of Pennsylvania for Ph.D in Music Composition</p>
+                
+
+                
+            </div>
+            )
+        },
+
+        "harvard" : {body: (
+            <div>
+                <p>Portfolio for Harvard University for Ph.D in Music Composition</p>
+            </div>
+        )},
+
+        "NYU" : {body: (
+            <div>
+                <p>Portfolio for New York University Ph.D in Music Composition</p>
+            </div>
+        )}
     },
     
     projects: {
@@ -252,12 +322,35 @@ let content = {
             ),
         },
 
-        "this-cooks" : {
+        "hacking-grains" : {
             body: (
                 <div>
-                    <p> for hacked rice cooker and electronics</p>
-                    <p>Performed by Trevor Van de Velde and Robert Hurley</p>
-                    <ReactPlayer url ="https://vimeo.com/490679062" controls = "true"></ReactPlayer>
+                    <p>
+                        h a c k i n g - g r a i n s is an installation & performance project that explores the web of relationships
+                        between technology, ritual, Asian-Identity, and Asian-Futurity.         
+                    </p>
+
+                    <p>
+                        During the pandemic, I like many students moved back in with my parents - It was at home I
+                        was re-acquainted with the familial object, the rice cooker. It was then I started self-reflflecting,
+                        how come my appliance, like most Pan-Asian appliances plays classical music as a jingle?
+                        How come the rice cooker, an object deeply rooted in my Asian identity, is fundamental
+                        programed and designed to sound European? This project then came out of a desire to rip
+                        the piezo buzzers out of these appliances to liberate it from its own consumer purpose and
+                        create a new sonic identity - one that represents cultural resistance.
+                    </p>
+
+                    <p>
+                        Instead of obedient beeps, the seemingly docile appliances dominate the space with harsh
+                        yet meditative electric drones. This combined with the smell of rice cooking turns the space
+                        and listeners into ritual. LED lights are embedded within the units and activated halfway
+t                       hrough, creating a lightshow reminiscent of neon restaurant signs & and edm raves.
+                    </p>
+                    <ReactPlayer url ="https://vimeo.com/646697399" controls = "true"></ReactPlayer>
+                    
+                    <p></p>
+                    <p>This project was supported by the Hopkins Center for the Arts: Arts+Technology Integration Grant. </p>
+                    <p>Further details can be found at{" "} <a target="_blank" href="https://hop.dartmouth.edu/arts-at-the-core/arts-integration-initiative"> https://hop.dartmouth.edu/arts-at-the-core/arts-integration-initiative</a></p>
                 </div>
             ),
         },
@@ -303,6 +396,19 @@ let content = {
             ),
         },
 
+        "automata" : {
+            body: (
+                <div>
+                    <p> for no performer & snare drum</p>
+                    <p> automata is a piece about the role of automation in Music reproduction. A transducer is attached to a snare drum and plays the infamous opening to Bolero. 
+                        Half-way through we see the limits, realities, and repercussions (haha) of such realities. </p>
+                    <p>This piece can either be designed for live performance or as a set sculpture.</p>
+                    <ReactPlayer url ="https://vimeo.com/605293646" controls = "true"></ReactPlayer>
+                </div>
+            )
+        },
+
+
         body: (
             <div>   
                 {/*<h3>virtual reality</h3>
@@ -317,7 +423,8 @@ let content = {
                 <h3>video projects</h3>
                 <p><Link to="/projects/fwd-fwd-fwd-viral-zoom-video">fwd:fwd:fwd viral zoom video</Link>-2020</p>
 
-                <h3>opera</h3>
+                <h3>installation + performance</h3>
+                <p><Link to="/projects/hacking-grains"> hacking grains </Link>-2021 </p>
                 <p><Link to="/projects/the-body-you-dream-of-is-your-own"> the body you dream of is your own</Link>-2020</p>
 
                 <h3>orchestra/large ensemble</h3>
@@ -331,6 +438,7 @@ let content = {
                 {/*<p><Link to="/projects/sometimes-i-ponder-in-a-variety-of-colors">sometimes i ponder in a variety of colors</Link>-2016</p>*/}
 
                 <h3>solos/duos</h3>
+                <p><Link to="/projects/automata">automata</Link>2021</p>
                 <p><Link to="/projects/pull-スレッド">pull.スレッド</Link>2021</p>
                 <p><Link to="/projects/singing">singing</Link>-2021</p>
                 {/*<p><Link to="/projects/this-cooks">this cooks</Link>-2020</p>*/}
