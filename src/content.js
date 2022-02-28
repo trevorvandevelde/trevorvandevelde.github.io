@@ -24,13 +24,7 @@ let content = {
             body: (
                 <div>
                 <p>
-                    <a
-                        target="_blank"
-                        href="https://drive.google.com/file/d/1Gupj6G8ejUxQpbmu5oj3b-7eTUv7MlJY/view?usp=sharing"
-                    >
-                        resume pdf
-                    </a>
-                    .
+                    <a target="_blank" href="https://drive.google.com/file/d/123mwLe1gK87s8fEtubKCy_hHmhqbkmVi/view?usp=sharing"> CV pdf</a>
                 </p>
                 <p>
                     <a
@@ -42,8 +36,6 @@ let content = {
                     .
                 </p>
                 </div>
-        
-            
                 
             ),
         },
@@ -113,69 +105,129 @@ let content = {
     },
 
     applications:{
-        "brown" : { body: (
-            <div>
-                <p>Portfolio for Brown University for Ph.D in Multi-Media Composition</p>
-            </div>
-            )
-        },
-        "columbia" : { body: (
-            <div>
-                <p>Portfolio for Columbia University for D.M.A in Music Composition</p>
-            </div>
-            )
-        },
+
         "stanford" : { body: (
             <div>
                 <h3>Portfolio for Stanford University for D.M.A in Music Composition</h3>
-                <p>Thank you for your consideration.</p>
-                <p><Link to="/about/cv">Link to CV</Link></p>
-                <p><Link to="/about/cv">Link to SOP</Link></p>
-                <p><Link to="/about/cv">Link to Writing Sample</Link></p>
-
-
-                <h4>Hacking Grains, for 2 performers & multi-channel hacked rice cookers</h4>
+                <p>Thank you for your consideration!!</p>
+                <p>
+                    <a target="_blank" href="https://drive.google.com/file/d/123mwLe1gK87s8fEtubKCy_hHmhqbkmVi/view?usp=sharing"> CV </a> --
+                    <a target="_blank" href="https://drive.google.com/file/d/17e2yYwvYYxSUYrGga0jW_LFT1-NupqgO/view?usp=sharing"> Writing Sample</a> --
+                    <a target="_blank" href="https://drive.google.com/file/d/1JEIcD0QD8H1OTm0kOhMmT-zkSh636ADF/view?usp=sharing"> SOP  </a>
+                </p>
+        
+                <div>
+                <h3>Hacking Grains, for 2 performers & multi-channel hacked rice cookers</h3>
                 <p>
                     h a c k i n g - g r a i n s is an installation & performance project that explores the web of relationships
                     between technology, ritual, Asian-Identity, and Asian-Futurity.         
                 </p>
                 <p>recommended excerpts: 0:00 – 2:00, 8:00-11:00, 14:00 – 16:00</p>
-                
+
                 <ReactPlayer url ="https://vimeo.com/646697399" controls = "true"></ReactPlayer>
-                <Iframe url="https://e.issuu.com/embed.html?d=slf.ctrl&u=trevorvandevelde"
+                <Iframe url="https://e.issuu.com/embed.html?d=hackinggrains_fullscorefinalv1&u=trevorvandevelde"
                     width="640px"
                     height="360px"
                     id="myIssuuHackingGrains"
                     className="myIssuuDoc"
                     display="initial"
                     position="relative"/>
-                
-            
+                </div>
+
+                <div>
+                <h3>slf-ctrl, video game for solo player & QWERTY keyboard</h3>
+                <p>
+                    slf-ctrl is a video game created in Unity & MaxMSP that deconstructs the video game genre as a form of 
+                    cybernetic training through internet, game, and classical music references.        
+                </p>
+                <p>recommended excerpts: 0:30 – 2:20, 3:50-5:00, 9:15-END :: FLASHING LIGHTS WARNING</p>
+
+                <ReactPlayer url ="https://vimeo.com/565026902" controls = "true"></ReactPlayer>
+                <Iframe url="https://e.issuu.com/embed.html?d=slf.ctrl&u=trevorvandevelde"
+                    width="640px"
+                    height="360px"
+                    id="myIssuuSlfCtrl"
+                    className="myIssuuDoc"
+                    display="initial"
+                    position="relative"/>
+                </div>
+
+                <div>
+                <h3>...i...like...stringssss... (ILS), for amplified string quartet & voices</h3>
+                <p>
+                    ILS is an exploration of inately ASMR-like qualities of contemporary music 
+                    and ponders the secretive question, "do they like strings?" 
+                </p>
+                <p>recommended excerpts: 0:30 – 2:30, 4:00-END</p>
+
+                <ReactPlayer url ="https://vimeo.com/569095481" controls = "true"></ReactPlayer>
+                <Iframe url="https://e.issuu.com/embed.html?d=vandeveldetrevor_ilikestringsfullscore&u=trevorvandevelde"
+                    width="640px"
+                    height="360px"
+                    id="myIssuuILS"
+                    className="myIssuuDoc"
+                    display="initial"
+                    position="relative"/>
+                </div>
+
+                <div>
+                <h3>automata, for solo snare drum</h3>
+                <p>
+                    automata explores the effects of automation technology within the labors of classical music production
+                    and more importantly, the prevalence of ad-technology within sites of pleasure and music streaming. 
+                </p>
+                <p>recommended excerpts: 0:00 – 1:00, 1:50-END</p>
+
+                <ReactPlayer url ="https://vimeo.com/605293646" controls = "true"></ReactPlayer>
+                <Iframe url="https://e.issuu.com/embed.html?d=automatafullscore&u=trevorvandevelde"
+                    width="640px"
+                    height="360px"
+                    id="myIssuuAUTAMATA"
+                    className="myIssuuDoc"
+                    display="initial"
+                    position="relative"/>
+                </div>
+
+                <div>
+                <h3>[singing], for feedback snare drum</h3>
+                <p>
+                    [singing] is a companion piece for autamata with similar instrumentation. Transducers and a microphone create a feedback loop controlled by the performer. 
+                    The percussionist is then dealt perform choreograph gestures to activate different resonant spaces of the snare head and let the noise take over. 
+                </p>
+                <p>recommended excerpts: 0:00 – 1:00, 1:50-3:00</p>
+
+                <ReactPlayer url ="https://vimeo.com/566741660" controls = "true"></ReactPlayer>
+                <Iframe url="https://e.issuu.com/embed.html?d=singing_1_1_&u=trevorvandevelde"
+                    width="640px"
+                    height="360px"
+                    id="myIssuuSinging"
+                    className="myIssuuDoc"
+                    display="initial"
+                    position="relative"/>
+                </div>
+
+                <div>
+                <h3>the air we breathe in intimate spaces</h3>
+                <p>
+                I had the idea to compose this piece after having a rather intense yet intimate conversation with someone in public. For some reason, we kept everything to a whisper, perhaps to not disturb others around us or perhaps to keep our conversation and our lives private. Despite our restraint our whispers became visceral and our breathing became erratic.
+                “the air we breathe in intimate spaces” is an exploration of these sounds. It’s about the things we hear within close proximity to others: their gasps, panting, sighs, and the calmnness of a synchronized inhale.
+                </p>
+                <p>recommended excerpts: 0:00 – END </p>
+
+                <ReactPlayer url ="https://soundcloud.com/trevor-van-de-velde/the-air-we-breathe-in-intimate-spaces" controls = "true"></ReactPlayer>
+                <Iframe url="https://e.issuu.com/embed.html?d=theairwebreathe_score&u=trevorvandevelde"
+                    width="640px"
+                    height="360px"
+                    id="myIssuuAIR"
+                    className="myIssuuDoc"
+                    display="initial"
+                    position="relative"/>
+                </div>
+
             </div>
             )
         },
-        "upenn" : { body: (
-            <div>
-                <p>Portfolio for University of Pennsylvania for Ph.D in Music Composition</p>
-                
-
-                
-            </div>
-            )
-        },
-
-        "harvard" : {body: (
-            <div>
-                <p>Portfolio for Harvard University for Ph.D in Music Composition</p>
-            </div>
-        )},
-
-        "NYU" : {body: (
-            <div>
-                <p>Portfolio for New York University Ph.D in Music Composition</p>
-            </div>
-        )}
-    },
+       
     
     projects: {
 
@@ -370,6 +422,8 @@ t                       hrough, creating a lightshow reminiscent of neon restaur
             body: (
                 <div>
                     <p> for string quartet and amplified voices </p>
+                    <p>ILS is an exploration of inately ASMR-like qualities of contemporary music 
+                    and ponders the secretive question, "do they like strings?" </p>
                     <p> workshopped and performed by the Jack Quartet for New Music on the Point 2021 </p>
                     <ReactPlayer url ="https://vimeo.com/569095481" controls = "true"></ReactPlayer>
                 </div>
@@ -389,9 +443,11 @@ t                       hrough, creating a lightshow reminiscent of neon restaur
         "slf-ctrl" : {  
             body: (
                 <div>
-                    <p> for solo performer and game interface </p>
-                    <p> Created using MaxMSP and Processing.js </p>
-                    <ReactPlayer url ="https://vimeo.com/557884798" controls = "true"></ReactPlayer>
+                    <p>
+                    slf-ctrl is a video game created in Unity & MaxMSP that deconstructs the video game genre as a form of 
+                    cybernetic training through internet, game, and classical music references.        
+                    </p>
+                    <ReactPlayer url ="https://vimeo.com/565026902" controls = "true"></ReactPlayer>
                 </div>
             ),
         },
