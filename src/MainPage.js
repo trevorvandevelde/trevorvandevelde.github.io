@@ -213,7 +213,7 @@ if (isMobile) {
           >
           <div>
             <p>
-              Trevor Van de Velde: Composer and Creative Technologist
+              trevor van de velde: composer and creative technologist
             </p>
             
           </div>
@@ -224,9 +224,9 @@ if (isMobile) {
             alwaysRenderCommands={true}
             closeOnSelect={false}
             theme={chrome}
-            placeholder={isMobile ? "start typing." : "start typing."}
+            placeholder={isMobile ? "search index" : "search index"}
             autofocus={true}
-            maxDisplayed={6}
+            maxDisplayed={5}
             options={{
               key: "name",
               keys: ["name"],

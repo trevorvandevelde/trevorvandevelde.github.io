@@ -19,7 +19,7 @@ let defaultContent = (
 );
 let content = {
     
-    about: {
+    info: {
         cv: {
             body: (
                 <div>
@@ -70,25 +70,26 @@ let content = {
                     </center>
                 </p>
                 <p> 
-                    Trevor Van de Velde (b. 1998) is a composer and creative technologist currently based in Hanover, New Hampshire. 
+                Trevor Van de Velde (he/him) is an experimental composer, sound artist, instrument builder, and creative programmer based in NYC/SF. 
+ 
                 </p>
                 <p>
-                    His research is oriented towards electroacoustic composition, mixed-media installation, hacking appliances, as well as exploring the space between technology and self. Trevor’s works are designed to explore the intrinsic relationships formed between play and technology. 
-                    Often utilizing mixed-media and electronics, Trevor’s works aims to form an 
-                    aspectual interface between performer, space, and source of sound. 
+                His practice is oriented toward exploring the relationship between technology, play, and hybridity through electroacoustic composition, custom-built electronics, and mixed-media.
+
                 </p>
                 <p>
-                    He has worked with a variety of performers and ensembles such as JACK Quartet, The Living Earth Show, Lucy Dhegrae, as well as many other artists dedicated in blurring the lines between media. 
+                 He is the recipient of the 2018 Nicola De Lorenzo Prize in Music Composition, 2020 Eisner Prize for the Creative Arts, 2021 Guarini Alumni Award, and Hopkins Center for the Arts Art+Technology grant. He presented work at festivals such as New Music On the Point (2021), The Summer Institute of Contemporary Performance (2021), Labo Montreal (2021), Yarn/Wire Institute (2022) and Ensemble Evolution (2022) and has worked with a variety ensembles such as JACK Quartet, The Living Earth Show, Chromic Duo, Yarn/Wire, and the International Contemporary Ensemble.
                 </p>
                 <p>
-                    Trevor is currently a Masters student at Dartmouth College studying composition and sonic arts with Ash Fure, Michael Casey, and César Alvarez. 
-                    He also holds a B.A. in Computer Science and Music from UC Berkeley where he studied composition with Ken Ueno, Ed Campion, and Franck Bedrossian. 
-                    He is the recipient of the 2018 Nicola De Lorenzo Prize in Music Composition, and the Eisner Prize for the Creative Arts. 
-                    Trevor has also attended festivals such as New Music On the Point (2021), The Summer Institute of Contemporary Performance (2021), Labo Montreal (2021), and a selected participant in the New Amsterdam Record's Composers Lab (2019). 
-                
+                    He holds a Bachelor of Arts degrees in Computer Science and Music Composition from UC Berkeley and a Master of Arts in Digital Music from Dartmouth College. He is currently pursuing a Ph.D in Music Composition at NYU GSAS. 
                 </p>
-                
-                <p><Link to="/about/cv">Link to CV</Link></p>
+
+                <p>
+                You can reach him via <a href="mailto:trevorvandevelde@gmail.com?body=hello">trevorvandevelde@gmail.com</a> or follow him on <a target="_blank" href="https://instagram.com/vantrevor"> Instagram</a>, <a target="_blank" href="https://twitter.com/trevandevelde"> Twitter</a>, and <a target="_blank" href="https://github.com/trevorvandevelde"> Github</a> if you are a nerd. 
+                </p>
+
+               
+                <p><Link to="/about/cv">CV</Link></p>
 
                 
                 
@@ -103,131 +104,6 @@ let content = {
             </div>
         )
     },
-
-    applications:{
-
-        "stanford" : { body: (
-            <div>
-                <h3>Portfolio for Stanford University for D.M.A in Music Composition</h3>
-                <p>Thank you for your consideration!!</p>
-                <p>
-                    <a target="_blank" href="https://drive.google.com/file/d/123mwLe1gK87s8fEtubKCy_hHmhqbkmVi/view?usp=sharing"> CV </a> --
-                    <a target="_blank" href="https://drive.google.com/file/d/17e2yYwvYYxSUYrGga0jW_LFT1-NupqgO/view?usp=sharing"> Writing Sample</a> --
-                    <a target="_blank" href="https://drive.google.com/file/d/1JEIcD0QD8H1OTm0kOhMmT-zkSh636ADF/view?usp=sharing"> SOP  </a>
-                </p>
-        
-                <div>
-                <h3>Hacking Grains, for 2 performers & multi-channel hacked rice cookers</h3>
-                <p>
-                    h a c k i n g - g r a i n s is an installation & performance project that explores the web of relationships
-                    between technology, ritual, Asian-Identity, and Asian-Futurity.         
-                </p>
-                <p>recommended excerpts: 0:00 – 2:00, 8:00-11:00, 14:00 – 16:00</p>
-
-                <ReactPlayer url ="https://vimeo.com/646697399" controls = "true"></ReactPlayer>
-                <Iframe url="https://e.issuu.com/embed.html?d=hackinggrains_fullscorefinalv1&u=trevorvandevelde"
-                    width="640px"
-                    height="360px"
-                    id="myIssuuHackingGrains"
-                    className="myIssuuDoc"
-                    display="initial"
-                    position="relative"/>
-                </div>
-
-                <div>
-                <h3>slf-ctrl, video game for solo player & QWERTY keyboard</h3>
-                <p>
-                    slf-ctrl is a video game created in Unity & MaxMSP that deconstructs the video game genre as a form of 
-                    cybernetic training through internet, game, and classical music references.        
-                </p>
-                <p>recommended excerpts: 0:30 – 2:20, 3:50-5:00, 9:15-END :: FLASHING LIGHTS WARNING</p>
-
-                <ReactPlayer url ="https://vimeo.com/565026902" controls = "true"></ReactPlayer>
-                <Iframe url="https://e.issuu.com/embed.html?d=slf.ctrl&u=trevorvandevelde"
-                    width="640px"
-                    height="360px"
-                    id="myIssuuSlfCtrl"
-                    className="myIssuuDoc"
-                    display="initial"
-                    position="relative"/>
-                </div>
-
-                <div>
-                <h3>...i...like...stringssss... (ILS), for amplified string quartet & voices</h3>
-                <p>
-                    ILS is an exploration of inately ASMR-like qualities of contemporary music 
-                    and ponders the secretive question, "do they like strings?" 
-                </p>
-                <p>recommended excerpts: 0:30 – 2:30, 4:00-END</p>
-
-                <ReactPlayer url ="https://vimeo.com/569095481" controls = "true"></ReactPlayer>
-                <Iframe url="https://e.issuu.com/embed.html?d=vandeveldetrevor_ilikestringsfullscore&u=trevorvandevelde"
-                    width="640px"
-                    height="360px"
-                    id="myIssuuILS"
-                    className="myIssuuDoc"
-                    display="initial"
-                    position="relative"/>
-                </div>
-
-                <div>
-                <h3>automata, for solo snare drum</h3>
-                <p>
-                    automata explores the effects of automation technology within the labors of classical music production
-                    and more importantly, the prevalence of ad-technology within sites of pleasure and music streaming. 
-                </p>
-                <p>recommended excerpts: 0:00 – 1:00, 1:50-END</p>
-
-                <ReactPlayer url ="https://vimeo.com/605293646" controls = "true"></ReactPlayer>
-                <Iframe url="https://e.issuu.com/embed.html?d=automatafullscore&u=trevorvandevelde"
-                    width="640px"
-                    height="360px"
-                    id="myIssuuAUTAMATA"
-                    className="myIssuuDoc"
-                    display="initial"
-                    position="relative"/>
-                </div>
-
-                <div>
-                <h3>[singing], for feedback snare drum</h3>
-                <p>
-                    [singing] is a companion piece for autamata with similar instrumentation. Transducers and a microphone create a feedback loop controlled by the performer. 
-                    The percussionist is then dealt perform choreograph gestures to activate different resonant spaces of the snare head and let the noise take over. 
-                </p>
-                <p>recommended excerpts: 0:00 – 1:00, 1:50-3:00</p>
-
-                <ReactPlayer url ="https://vimeo.com/566741660" controls = "true"></ReactPlayer>
-                <Iframe url="https://e.issuu.com/embed.html?d=singing_1_1_&u=trevorvandevelde"
-                    width="640px"
-                    height="360px"
-                    id="myIssuuSinging"
-                    className="myIssuuDoc"
-                    display="initial"
-                    position="relative"/>
-                </div>
-
-                <div>
-                <h3>the air we breathe in intimate spaces</h3>
-                <p>
-                I had the idea to compose this piece after having a rather intense yet intimate conversation with someone in public. For some reason, we kept everything to a whisper, perhaps to not disturb others around us or perhaps to keep our conversation and our lives private. Despite our restraint our whispers became visceral and our breathing became erratic.
-                “the air we breathe in intimate spaces” is an exploration of these sounds. It’s about the things we hear within close proximity to others: their gasps, panting, sighs, and the calmnness of a synchronized inhale.
-                </p>
-                <p>recommended excerpts: 0:00 – END </p>
-
-                <ReactPlayer url ="https://soundcloud.com/trevor-van-de-velde/the-air-we-breathe-in-intimate-spaces" controls = "true"></ReactPlayer>
-                <Iframe url="https://e.issuu.com/embed.html?d=theairwebreathe_score&u=trevorvandevelde"
-                    width="640px"
-                    height="360px"
-                    id="myIssuuAIR"
-                    className="myIssuuDoc"
-                    display="initial"
-                    position="relative"/>
-                </div>
-
-            </div>
-            )
-        },
-       
     
     projects: {
 
@@ -396,7 +272,7 @@ let content = {
                         Instead of obedient beeps, the seemingly docile appliances dominate the space with harsh
                         yet meditative electric drones. This combined with the smell of rice cooking turns the space
                         and listeners into ritual. LED lights are embedded within the units and activated halfway
-t                       hrough, creating a lightshow reminiscent of neon restaurant signs & and edm raves.
+                        through, creating a lightshow reminiscent of neon restaurant signs & and edm raves.
                     </p>
                     <ReactPlayer url ="https://vimeo.com/646697399" controls = "true"></ReactPlayer>
                     
@@ -480,7 +356,7 @@ t                       hrough, creating a lightshow reminiscent of neon restaur
                 <p><Link to="/projects/fwd-fwd-fwd-viral-zoom-video">fwd:fwd:fwd viral zoom video</Link>-2020</p>
 
                 <h3>installation + performance</h3>
-                <p><Link to="/projects/hacking-grains"> hacking grains </Link>-2021 </p>
+                <p><Link to="/projects/hacking-grains"> hacking grains </Link>-2022 </p>
                 <p><Link to="/projects/the-body-you-dream-of-is-your-own"> the body you dream of is your own</Link>-2020</p>
 
                 <h3>orchestra/large ensemble</h3>
@@ -499,17 +375,31 @@ t                       hrough, creating a lightshow reminiscent of neon restaur
                 <p><Link to="/projects/singing">singing</Link>-2021</p>
                 {/*<p><Link to="/projects/this-cooks">this cooks</Link>-2020</p>*/}
                 {/*<p><Link to="/projects/the-way-the-body-decays">the way the body decays</Link>-2019</p> */}
-                <p><Link to="/projects/one-point">one-point</Link>-2018</p>
-                <p><Link to="/projects/zero-point">zero-point</Link>-2017</p>
+                {/*<p><Link to="/projects/one-point">one-point</Link>-2018</p>*/}
+                {/*<p><Link to="/projects/zero-point">zero-point</Link>-2017</p>*/}
             </div>
         ),
     },
     
-    research: {
+    publications: {
         body: (
             <div>
-                <h3>publications</h3>
-                <p>coming soon - once i write something!</p>
+                <p>
+                    things i didn't write
+                </p>
+                <p> 
+                    <a target="_blank" href="https://sinetheta.net/23.html"> Sine Theta Interview</a>
+                </p>
+                <p> 
+                    <a target="_blank" href="https://home.dartmouth.edu/news/2022/04/cooking-concert-rice"> Cooking Up a Concert - with Rice</a>
+                </p>
+                <p> 
+                    <a target="_blank" href="https://www.youtube.com/watch?v=inowSGLzq6A"> Dartmouth Alumni Research Award</a>
+                </p>
+
+
+
+                
             </div>
         )
             
