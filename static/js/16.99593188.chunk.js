@@ -1,0 +1,2 @@
+(this["webpackJsonppersonal-website"]=this["webpackJsonppersonal-website"]||[]).push([[16],{212:function(e,l,o){"use strict";o.r(l);var r=o(1);l.default=function(e){var l=e.id;return(0,e.renderWrap)(r.createElement("iframe",{height:"700px",width:"100%",frameBorder:"no",allowFullScreen:!0,src:"https://repl.it/".concat(l,"?lite=true"),scrolling:"no",sandbox:"allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"}))}}}]);
+//# sourceMappingURL=16.99593188.chunk.js.map

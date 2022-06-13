@@ -1,0 +1,2 @@
+(this["webpackJsonppersonal-website"]=this["webpackJsonppersonal-website"]||[]).push([[15],{210:function(e,t,r){"use strict";r.r(t);var s=r(1);t.default=function(e){var t=e.url;return(0,e.renderWrap)(s.createElement("embed",{src:t,type:"application/pdf",style:{width:"100%",minHeight:600},className:"react-embed--pdf"}))}}}]);
+//# sourceMappingURL=15.ad4f98f2.chunk.js.map

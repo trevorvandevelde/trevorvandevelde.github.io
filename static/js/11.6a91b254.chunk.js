@@ -1,2 +1,0 @@
-(this["webpackJsonppersonal-website"]=this["webpackJsonppersonal-website"]||[]).push([[11],{167:function(e,r,t){"use strict";t.r(r);var n=t(1);r.default=function(e){var r=e.id;return(0,e.renderWrap)(n.createElement("iframe",{src:"https://gfycat.com/ifr/"+r,width:"100%",height:"500px",frameBorder:"0",scrolling:"no",allowFullScreen:!0}))}}}]);
-//# sourceMappingURL=11.6a91b254.chunk.js.map
