@@ -7,7 +7,7 @@ import Iframe from 'react-iframe';
 //import Row from "react-bootstrap/Row";
 //import Col from "react-bootstrap/Col";
 //import ReactMediumImg from "react-medium-zoom";
-import curr_pic from "./pictures/profile_pic_1.jpg"; 
+import curr_pic from "./pictures/profile_pic_2.jpg"; 
 
 
 let defaultContent = (
@@ -254,30 +254,22 @@ let content = {
             body: (
                 <div>
                     <p>
-                        h a c k i n g - g r a i n s is an installation & performance project that explores the web of relationships
-                        between technology, ritual, Asian-Identity, and Asian-Futurity.         
+                        Hacking Grains is an installation & performance project that explores the web of relationships
+                        between technology, ritual, and Asian Futurity.         
                     </p>
 
+        
                     <p>
-                        During the pandemic, I like many students moved back in with my parents - It was at home I
-                        was re-acquainted with the familial object, the rice cooker. It was then I started self-reflflecting,
-                        how come my appliance, like most Pan-Asian appliances plays classical music as a jingle?
-                        How come the rice cooker, an object deeply rooted in my Asian identity, is fundamental
-                        programed and designed to sound European? This project then came out of a desire to rip
-                        the piezo buzzers out of these appliances to liberate it from its own consumer purpose and
-                        create a new sonic identity - one that represents cultural resistance.
-                    </p>
-
-                    <p>
-                        Instead of obedient beeps, the seemingly docile appliances dominate the space with harsh
+                        The rice cooker is reimagined as a cultural synthesizer. The seemingly docile appliances dominate the space with harsh
                         yet meditative electric drones. This combined with the smell of rice cooking turns the space
                         and listeners into ritual. LED lights are embedded within the units and activated halfway
-                        through, creating a lightshow reminiscent of neon restaurant signs & and edm raves.
+                        through, creating a lightshow reminiscent of neon restaurant signs & and edm raves. At the end of the piece, the rice is collected and served to the audience by the performers. We then partake in a collective meal. 
                     </p>
-                    <ReactPlayer url ="https://vimeo.com/646697399" controls = "true"></ReactPlayer>
+                    <ReactPlayer url ="https://vimeo.com/705643225/e1284564be" controls = "true"></ReactPlayer>
                     
                     <p></p>
                     <p>This project was supported by the Hopkins Center for the Arts: Arts+Technology Integration Grant. </p>
+                    <p>Hacking Grains premiered April 30th, at the Hopkins Center for the Arts at Dartmouth College by Chromic Duo</p>
                     <p>Further details can be found at{" "} <a target="_blank" href="https://hop.dartmouth.edu/arts-at-the-core/arts-integration-initiative"> https://hop.dartmouth.edu/arts-at-the-core/arts-integration-initiative</a></p>
                 </div>
             ),
