@@ -89,7 +89,7 @@ let content = {
                 </p>
 
                
-                <p><Link to="/about/cv">CV</Link></p>
+                <p><Link to="/info/cv">CV</Link></p>
 
                 
                 
@@ -142,6 +142,30 @@ let content = {
                     <ReactPlayer url ="https://vimeo.com/490276819" controls = "true"></ReactPlayer>
                 </div>
             ),
+        },
+
+        "blossom-VR": {
+            body: (
+                <div>
+                    <p>
+                        Blossom-VR is a biofeedback game built in Unity at <a target="_blank" href="https://xr.berkeley.edu"> Extended Reality @ Berkeley</a> that aims to creatively enhance meditation and relaxation experiences in virtual reality. 
+                        Inspired by the effectiveness of biofeedback treatments, we developed a minimal viable product that utilizes the users’ movements in VR and optionally Apple Watch biosensor data to provide feedback about how well the user is 
+                        performing a relaxation technique as well as the users’ improvement over time.
+                    </p>
+                    <p>
+                        My role in the Blossom VR Team was main Sound-Designer for both game-mechanic sounds as well as User Interface Sounds. 
+                    </p>
+
+
+                    <ReactPlayer url="https://vimeo.com/725677510/11ce798901" controls = "true"></ReactPlayer>
+                    <ReactPlayer url="https://vimeo.com/717750535/bf6532f5fe" controls = "true"></ReactPlayer>
+                    <p>
+                    <p>Further details can be found at{" "} <a target="_blank" href="https://blossomvr.com"> https://blossomvr.com</a></p>
+                    </p>
+                </div>
+
+            ),
+
         },
        
         "the-body-you-dream-of-is-your-own": {
@@ -335,11 +359,12 @@ let content = {
 
         body: (
             <div>   
-                {/*<h3>virtual reality</h3>
-                <p><Link to="/projects/moss-gardens-vr"> moss gardens VR</Link>-2020</p>
+                <h3>VR Work</h3>
+                <p><Link to="/projects/blossom-vr"> moss gardens VR</Link>-Ongoing</p>
+                <p><Link to="/projects/2dim2sum"> 2dim2sum </Link> 2022</p>
 
-                <h3>web games</h3>
-                <p><Link to="/projects/breathing-bells"> breathing bells</Link>-2021</p> */}
+                <h3>web experiments</h3>
+                <p><Link to="/projects/breathing-bells"> breathing bells </Link>-2021</p>
 
                 <h3>game performance</h3>
                 <p><Link to="/projects/slf-ctrl"> slf-ctrl</Link>-2021</p>
