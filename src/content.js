@@ -24,19 +24,27 @@ let content = {
             body: (
                 <div>
                 <p>
-                    <a target="_blank" href="https://drive.google.com/file/d/123mwLe1gK87s8fEtubKCy_hHmhqbkmVi/view?usp=sharing"> CV pdf</a>
+                    <a target="_blank" href="https://docs.google.com/document/d/1AKkTDqu8WOCnjsU00hHCLBnviSBkEC-CeATsZU-IUFs/edit?usp=sharing"> cv</a>
                 </p>
                 <p>
-                    <a
-                        target="_blank"
-                        href="https://drive.google.com/file/d/1Q3W6itdT2O0EijM9fsY-NgE8QjDxz3H_/view?usp=sharing"
-                    >
-                        portfolio pdf
-                    </a>
-                    .
+                    <a target="_blank" href="https://docs.google.com/document/d/1AA_na2MK1nYfslF59_MjgQyWIygjkt1hYWXWyz07LPk/edit?usp=sharing">resume</a> 
+                </p>
+                <p>
+                    <a target="_blank" href="https://docs.google.com/presentation/d/1AeYbMGOraKZWORPgcB-WGXsX38CBDd60gdDGKMiD54k/edit?usp=sharing">portfolio</a>
                 </p>
                 </div>
                 
+            ),
+        },
+
+        resume: {
+            body:(
+                <div>
+                    <p>
+                    <a target="_blank" href="https://docs.google.com/document/d/1AA_na2MK1nYfslF59_MjgQyWIygjkt1hYWXWyz07LPk/edit?usp=sharing">resume</a> 
+                    </p>
+                </div>
+
             ),
         },
 
@@ -45,13 +53,31 @@ let content = {
                 <p>
                     <a
                         target="_blank"
-                        href="https://drive.google.com/file/d/1Q3W6itdT2O0EijM9fsY-NgE8QjDxz3H_/view?usp=sharing"
+                        href="https://docs.google.com/presentation/d/1AeYbMGOraKZWORPgcB-WGXsX38CBDd60gdDGKMiD54k/edit?usp=sharing"
                     >
-                        pdf
+                        portfolio
                     </a>
                     .
                 </p>
             ),
+        },
+
+        stuffs: {
+            body: (
+                <div>
+                <p>
+                    <a target="_blank" href="https://docs.google.com/document/d/1AKkTDqu8WOCnjsU00hHCLBnviSBkEC-CeATsZU-IUFs/edit?usp=sharing"> cv</a>
+                </p>
+                <p>
+                    <a target="_blank" href="https://docs.google.com/document/d/1AA_na2MK1nYfslF59_MjgQyWIygjkt1hYWXWyz07LPk/edit?usp=sharing">resume</a> 
+                </p>
+                <p>
+                    <a target="_blank" href="https://docs.google.com/presentation/d/1AeYbMGOraKZWORPgcB-WGXsX38CBDd60gdDGKMiD54k/edit?usp=sharing">portfolio</a>
+                </p>
+                </div>
+                
+            ),
+
         },
        
         
@@ -97,6 +123,7 @@ let content = {
         ),
     },
 
+
     contact: {
         body: (
             <div>
@@ -139,7 +166,7 @@ let content = {
                         This project was created in Unit for James Mahoney's AR/VR development class at Dartmouth College. 
                     </p>
 
-                    <ReactPlayer url ="https://vimeo.com/490276819" controls = "true"></ReactPlayer>
+                    <ReactPlayer url ="https://vimeo.com/490276819" controls = "true" align = "left"></ReactPlayer>
                 </div>
             ),
         },
@@ -157,7 +184,7 @@ let content = {
                     </p>
 
 
-                    <ReactPlayer url="https://vimeo.com/725677510/11ce798901" controls = "true"></ReactPlayer>
+                    <ReactPlayer url="https://vimeo.com/725677510/11ce798901" controls = "true" align = "left"></ReactPlayer>
                     <ReactPlayer url="https://vimeo.com/717750535/bf6532f5fe" controls = "true"></ReactPlayer>
                     <p>
                     <p>Further details can be found at{" "} <a target="_blank" href="https://blossomvr.com"> https://blossomvr.com</a></p>
@@ -165,6 +192,18 @@ let content = {
                 </div>
 
             ),
+
+        },
+
+        "2dim2sum": {
+            body:(
+                <div>
+                    <p>
+                        2dim2sum is an VR installation built in A-Frame for the Dias.Stories Future through Memory installation hosted at the Ontario College of Arts & Design. 
+                    </p>
+                    <p>Access the vr {" "} <a target="_blank" href="https://trevorvandevelde.com/2dim2sum/"> here </a></p>
+                </div>
+            )
 
         },
        
@@ -359,9 +398,10 @@ let content = {
 
         body: (
             <div>   
-                <h3>VR Work</h3>
-                <p><Link to="/projects/blossom-vr"> moss gardens VR</Link>-Ongoing</p>
-                <p><Link to="/projects/2dim2sum"> 2dim2sum </Link> 2022</p>
+                <h3>vr work</h3>
+                <p><Link to="/projects/blossom-vr"> blossom vr</Link>-curr</p>
+
+                <p><Link to="/projects/2dim2sum"> 2dim2sum </Link>-2022</p>
 
                 <h3>web experiments</h3>
                 <p><Link to="/projects/breathing-bells"> breathing bells </Link>-2021</p>
@@ -380,15 +420,15 @@ let content = {
                 <p><Link to="/projects/the-air-we-breathe-in-intimate-spaces"> the air we breathe in intimate spaces</Link>-2019</p>
 
                 <h3>chamber works</h3>
-                <p><Link to="projects/i-like-stringssss">i like stringssss</Link> 2021</p>
+                <p><Link to="projects/i-like-stringssss">i like stringssss</Link>-2021</p>
                 {/*<p><Link to="projects/animal-farm">animal farm</Link>-2018</p> */}
                 <p><Link to="projects/these-suck">these suck</Link>-2018</p>
                 {/*<p><Link to="/projects/electric-vibratar">electric vibratar</Link>-2017</p>*/}
                 {/*<p><Link to="/projects/sometimes-i-ponder-in-a-variety-of-colors">sometimes i ponder in a variety of colors</Link>-2016</p>*/}
 
                 <h3>solos/duos</h3>
-                <p><Link to="/projects/automata">automata</Link>2021</p>
-                <p><Link to="/projects/pull-スレッド">pull.スレッド</Link>2021</p>
+                <p><Link to="/projects/automata">automata</Link>-2021</p>
+                <p><Link to="/projects/pull-スレッド">pull.スレッド</Link>-2021</p>
                 <p><Link to="/projects/singing">singing</Link>-2021</p>
                 {/*<p><Link to="/projects/this-cooks">this cooks</Link>-2020</p>*/}
                 {/*<p><Link to="/projects/the-way-the-body-decays">the way the body decays</Link>-2019</p> */}
