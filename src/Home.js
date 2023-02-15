@@ -4,9 +4,13 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { withRouter } from "react-router-dom";
 import CommandPalette from "react-command-palette";
-import chrome from "./node_modules/react-command-palette/dist/themes/chrome-theme.";
+
+// import the theme from those provided ...
+import chrome from "react-command-palette/dist/themes/chrome-theme";
+
 // then import the CSS
-import "./node_modules/react-command-palette/dist/themes/chrome.css";
+import "react-command-palette/dist/themes/chrome.css";
+
 
 class Home extends React.Component {
   commandCreator = (parsedStructure) => {

@@ -6,10 +6,10 @@ import { Link } from "react-router-dom";
 import CommandPalette from "react-command-palette";
 
 // import the theme from those provided ...
-import chrome from "./node_modules/react-command-palette/dist/themes/chrome-theme";
+import chrome from "react-command-palette/dist/themes/chrome-theme";
 
 // then import the CSS
-import "./node_modules/react-command-palette/dist/themes/chrome.css";
+import "react-command-palette/dist/themes/chrome.css";
 
 export default class MainPage extends React.Component {
   commandCreator = parsedStructure => {
@@ -73,6 +73,8 @@ if (isMobile) {
           hotKeys="command+p"
           alwaysRenderCommands={true}
           closeOnSelect={false}
+          
+          
           theme={chrome}
           placeholder={isMobile ? "start typing." : "start typing."}
           autofocus={true}
