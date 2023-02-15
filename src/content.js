@@ -123,10 +123,27 @@ let content = {
         ),
     },
 
+    news: {
+        body: (
+            <div>
+                <p>news for upcoming performances (if i have any)</p>
+
+                <p1>19 Dec 2022</p1>
+                <p>am excited to write a piece for Alarm Will Sound as part of the Mizzou New Music Festival 2023!  </p>
+
+                <p1>24 Feb 2023</p1>
+                <p>upcoming performances with Thin Edge Collective</p>
+            </div>
+
+        )
+
+    },
+
 
     contact: {
         body: (
             <div>
+                <p>for inquiries including press materials, information on ordering scores, parts, recordings, rentals or performance-related issues please include who/when/where</p>
                 <p>email: trevorvandevelde (at) gmail (dot) com</p>
             </div>
         )
@@ -395,32 +412,44 @@ let content = {
             )
         },
 
+        "let's move forward with it" : {
+            body: (
+                <div>
+                    <p> for 2 performers, qwerty keyboards and mice, and percussion</p>
+                    <p>
+                        written as part of the Yarn/Wire Institute 2022, LMFW-IT is theater piece that looks at the role of time
+                        within office jargon. how come 
+
+                    </p>
+                </div>
+            )
+
+
+        },
+
 
         body: (
             <div>   
-                <h3>vr work</h3>
-                <p><Link to="/projects/blossom-vr"> blossom vr</Link>-curr</p>
+                {/*<h3>vr work</h3> */}
+                {/*<p><Link to="/projects/blossom-vr"> blossom vr</Link>-curr</p>*/}
 
-                <p><Link to="/projects/2dim2sum"> 2dim2sum </Link>-2022</p>
+                <h3>installation + performance</h3>
+                <p><Link to="/projects/hacking-grains"> hacking grains </Link>-2022 <em> for 2 performers, rice cooker synthesizers, amplified rice, feedback percussion and electronics</em></p>
+                <p><Link to="/projects/the-body-you-dream-of-is-your-own"> the body you dream of is your own</Link>-2020 <em> for alto flute and 8-channel video installation</em></p>
 
-                <h3>web experiments</h3>
-                <p><Link to="/projects/breathing-bells"> breathing bells </Link>-2021</p>
 
                 <h3>game performance</h3>
                 <p><Link to="/projects/slf-ctrl"> slf-ctrl</Link>-2021</p>
 
                 <h3>video projects</h3>
-                <p><Link to="/projects/fwd-fwd-fwd-viral-zoom-video">fwd:fwd:fwd viral zoom video</Link>-2020</p>
-
-                <h3>installation + performance</h3>
-                <p><Link to="/projects/hacking-grains"> hacking grains </Link>-2022 </p>
-                <p><Link to="/projects/the-body-you-dream-of-is-your-own"> the body you dream of is your own</Link>-2020</p>
+                <p><Link to="/projects/fwd-fwd-fwd-viral-zoom-video">fwd:fwd:fwd viral zoom video</Link>-2020 <em>fixed media</em></p>
 
                 <h3>orchestra/large ensemble</h3>
                 <p><Link to="/projects/the-air-we-breathe-in-intimate-spaces"> the air we breathe in intimate spaces</Link>-2019</p>
+                <p>upcoming sinfonietta for Alarm Will Sound</p>
 
                 <h3>chamber works</h3>
-                <p><Link to="projects/i-like-stringssss">i like stringssss</Link>-2021</p>
+                <p><Link to="projects/i-like-stringssss">i like stringssss</Link>-2021 <em> for amplified string quartet and voice</em></p>
                 {/*<p><Link to="projects/animal-farm">animal farm</Link>-2018</p> */}
                 <p><Link to="projects/these-suck">these suck</Link>-2018</p>
                 {/*<p><Link to="/projects/electric-vibratar">electric vibratar</Link>-2017</p>*/}
@@ -434,6 +463,12 @@ let content = {
                 {/*<p><Link to="/projects/the-way-the-body-decays">the way the body decays</Link>-2019</p> */}
                 {/*<p><Link to="/projects/one-point">one-point</Link>-2018</p>*/}
                 {/*<p><Link to="/projects/zero-point">zero-point</Link>-2017</p>*/}
+
+                <h3>web experiments</h3>
+                <p><Link to="/projects/breathing-bells"> breathing bells </Link>-2021</p>
+                <p><Link to="/projects/2dim2sum"> 2dim2sum </Link>-2022</p>
+            
+            
             </div>
         ),
     },

@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Link } from "react-router-dom";
 import CommandPalette from "react-command-palette";
-import chrome from "react-command-palette/themes/chrome-theme";
+import chrome from "./node_modules/react-command-palette/dist/themes/chrome-theme";
 import "react-command-palette/themes/chrome.css";
 
 export default class MainPage extends React.Component {
