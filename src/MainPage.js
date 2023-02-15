@@ -4,8 +4,12 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Link } from "react-router-dom";
 import CommandPalette from "react-command-palette";
+
+// import the theme from those provided ...
 import chrome from "./node_modules/react-command-palette/dist/themes/chrome-theme";
-import "react-command-palette/themes/chrome.css";
+
+// then import the CSS
+import "./node_modules/react-command-palette/dist/themes/chrome.css";
 
 export default class MainPage extends React.Component {
   commandCreator = parsedStructure => {
