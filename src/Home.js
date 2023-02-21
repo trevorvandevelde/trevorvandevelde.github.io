@@ -73,7 +73,7 @@ class Home extends React.Component {
             alwaysRenderCommands={true}
             closeOnSelect={false}
             theme={chrome}
-            placeholder={isMobile ? "start typing." : "start typing."}
+            placeholder={isMobile ? "u can type things to search" : "u can type things to search"}
             autofocus={true}
             maxDisplayed={6}
             options={{

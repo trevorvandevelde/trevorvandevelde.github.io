@@ -76,7 +76,7 @@ if (isMobile) {
           
           
           theme={chrome}
-          placeholder={isMobile ? "start typing." : "start typing."}
+          placeholder={isMobile ? "u can type things to search" : "u can type things to search"}
           autofocus={true}
           maxDisplayed={6}
           options={{
@@ -219,7 +219,7 @@ if (isMobile) {
           >
           <div>
             <p>
-              trevor van de velde: composer and creative technologist
+              Trevor Van de Velde: Composer and Creative Technologist
             </p>
             
           </div>
@@ -230,7 +230,7 @@ if (isMobile) {
             alwaysRenderCommands={true}
             closeOnSelect={false}
             theme={chrome}
-            placeholder={isMobile ? "search index" : "search index"}
+            placeholder={isMobile ? "u can type things to search" : "u can type things to search"}
             autofocus={true}
             maxDisplayed={5}
             options={{

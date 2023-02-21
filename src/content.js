@@ -1,5 +1,6 @@
 import React from "react";
 import ReactPlayer from "react-player";
+import {Text, StyleSheet} from "react-native";
 import Embed from 'react-embed';
 import { Link } from "react-router-dom";
 import Iframe from 'react-iframe';
@@ -8,6 +9,8 @@ import Iframe from 'react-iframe';
 //import Col from "react-bootstrap/Col";
 //import ReactMediumImg from "react-medium-zoom";
 import curr_pic from "./pictures/profile_pic_2.jpg"; 
+
+const B = (props) => <Text style={{fontWeight: 'bold'}}>{props.children}</Text>
 
 
 let defaultContent = (
@@ -107,11 +110,11 @@ let content = {
                  He is the recipient of the 2018 Nicola De Lorenzo Prize in Music Composition, 2020 Eisner Prize for the Creative Arts, 2021 Guarini Alumni Award, and Hopkins Center for the Arts Art+Technology grant. He presented work at festivals such as New Music On the Point (2021), The Summer Institute of Contemporary Performance (2021), Labo Montreal (2021), Yarn/Wire Institute (2022) and Ensemble Evolution (2022) and has worked with a variety ensembles such as JACK Quartet, The Living Earth Show, Chromic Duo, Yarn/Wire, and the International Contemporary Ensemble.
                 </p>
                 <p>
-                    He holds a Bachelor of Arts degrees in Computer Science and Music Composition from UC Berkeley and a Master of Arts in Digital Music from Dartmouth College. He is currently pursuing a Ph.D in Music Composition at NYU GSAS. 
+                    He holds a Bachelor of Arts degrees in Computer Science and Music Composition from UC Berkeley and a Master of Arts in Digital Music from Dartmouth College. He is currently pursuing a Ph.D in Music Composition at NYU GSAS studying with Jaime Olivier La Rosa and Elizabeth Hoffman. 
                 </p>
 
                 <p>
-                You can reach him via <a href="mailto:trevorvandevelde@gmail.com?body=hello">trevorvandevelde@gmail.com</a> or follow him on <a target="_blank" href="https://instagram.com/vantrevor"> Instagram</a>, <a target="_blank" href="https://twitter.com/trevandevelde"> Twitter</a>, and <a target="_blank" href="https://github.com/trevorvandevelde"> Github</a> if you are a nerd. 
+                You can reach him via <a href="mailto:trevorvandevelde@gmail.com?body=hello">trevorvandevelde@gmail.com</a> or follow him on <a target="_blank" href="https://instagram.com/vantrevor"> Instagram</a>, <a target="_blank" href="https://twitter.com/trevandevelde"> Twitter</a>. 
                 </p>
 
                
@@ -126,13 +129,25 @@ let content = {
     news: {
         body: (
             <div>
-                <p>news for upcoming performances (if i have any)</p>
+                <h3>upcoming events</h3>
+                
+                
+                <div>
+                <p>TORONTO, CANADA: 02/24/2023: Thin Edge New Music Collective will perform <em>Let's Move Forward with It</em> and <em>singing.</em> I also will be performing a solo and duo set with Suzanne Kite.</p>
+                <p>NEW YORK CITY, NY: 04/30/2023: Premiere of <em>don't get it twisted</em> for Bergamot Quartet at the NYU Waverly Labs</p>
+                <p>COLUMBIA, MO: 07/29/2023: Premiere of new work for Alarm Will Sound at the Mizzou New Music Festival</p>
 
-                <p1>19 Dec 2022</p1>
-                <p>am excited to write a piece for Alarm Will Sound as part of the Mizzou New Music Festival 2023!  </p>
+                </div>
+                <h3>past events</h3>
 
-                <p1>24 Feb 2023</p1>
-                <p>upcoming performances with Thin Edge Collective</p>
+                <div>
+                <p>CAMBRIDGE, MA: 10/08/2022: Chromic Duo performs <em>Hacking Grains</em> at the MIT Museum</p>
+                <p>NEW YORK CITY, NY: 06/25/2022: Premiere of <em>Let's Move Forward with It</em> at The Dimenna Center at the Yarn/Wire Institute</p>
+                <p>HANOVER, NH: 04/30/2022: Chromic Duo premieres <em>Hacking Grains</em> at Dartmouth College</p>
+
+                </div>
+                
+                <p><em>anything older i am unsure and simply do not remember. this list will update as I unlock old memories with vivid detail</em></p>
             </div>
 
         )
@@ -143,7 +158,7 @@ let content = {
     contact: {
         body: (
             <div>
-                <p>for inquiries including press materials, information on ordering scores, parts, recordings, rentals or performance-related issues please include who/when/where</p>
+            
                 <p>email: trevorvandevelde (at) gmail (dot) com</p>
             </div>
         )
@@ -324,6 +339,17 @@ let content = {
             body: (
                 <div>
                     <p>for solo snare drum and electronics</p>
+                    <p>
+                        A main gesture for playing a snare drum is typically a snare hit. There is an initial onset/contact
+                        (the hit) followed by a sonic and physical offset. This onset-offset relationship between gesture
+                        and sound act as a form of binary.
+                        The heart of singing is this relationship – on and off. However instead, the drum is modified
+                        with these tiny special type of contact speakers known as transducers. These transducers
+                        coupled with an ordinary microphone turn the drum into a vessel for feedback. This on-off
+                        relationship takes on a whole new meaning with the drum. Subtle changes in skin pressure can
+                        create complex screeching or sonorous textures. In this way, the snare drum can achieve a type
+                        of singing that was not present before.
+                    </p>
                     <p>written for the Summer Institute for Contemporary Performance Practice</p>
                     <ReactPlayer url ="https://vimeo.com/566741660" controls = "true"></ReactPlayer>
                 </div>
@@ -345,12 +371,21 @@ let content = {
                         and listeners into ritual. LED lights are embedded within the units and activated halfway
                         through, creating a lightshow reminiscent of neon restaurant signs & and edm raves. At the end of the piece, the rice is collected and served to the audience by the performers. We then partake in a collective meal. 
                     </p>
-                    <ReactPlayer url ="https://vimeo.com/705643225/e1284564be" controls = "true"></ReactPlayer>
+                   
                     
-                    <p></p>
+                    <p>Hacking Grains is broken down into 4 movements：</p>
+                    <p><em>i. rice as ritual</em></p>
+                    <p><em>ii. feeding the machine</em></p>
+                    <p><em>iii. ddr</em></p>
+                    <p><em>iv. 吃饭</em></p>
+
+                    <ReactPlayer url ="https://vimeo.com/705643225/e1284564be" controls = "true"></ReactPlayer>
+
                     <p>This project was supported by the Hopkins Center for the Arts: Arts+Technology Integration Grant. </p>
-                    <p>Hacking Grains premiered April 30th, at the Hopkins Center for the Arts at Dartmouth College by Chromic Duo</p>
+                    <p>Hacking Grains premiered April 30th, at the Hopkins Center for the Arts at Dartmouth College by Chromic Duo (Lucy Yao & Dorothy Chan)</p>
                     <p>Further details can be found at{" "} <a target="_blank" href="https://hop.dartmouth.edu/arts-at-the-core/arts-integration-initiative"> https://hop.dartmouth.edu/arts-at-the-core/arts-integration-initiative</a></p>
+               
+
                 </div>
             ),
         },
@@ -417,10 +452,17 @@ let content = {
                 <div>
                     <p> for 2 performers, qwerty keyboards and mice, and percussion</p>
                     <p>
-                        written as part of the Yarn/Wire Institute 2022, LMFW-IT is theater piece that looks at the role of time
-                        within office jargon. how come 
+                        I wrote Let’s Move Forward with it or LMFWI to contemplate the sound of the office
+                            environment and its physical and time-based idioms. Phrases like syncing, circling, moving
+                            forward have such an interesting connection to time and self that I thought it should be
+                            explored in a time-based performance practice. The mechanical keyboard and mice become
+                            more than a communication technology, they become their own sonic characters.
 
                     </p>
+                    <p>
+                    In short, LMFWI is an exploration of these sounds and relationships formed by contemporary office culture.
+                    </p>
+                    <p><em>Let's Move Foward with it was written and premiered at the 2022 Yarn/Wire Institute.</em></p>
                 </div>
             )
 
@@ -433,41 +475,47 @@ let content = {
                 {/*<h3>vr work</h3> */}
                 {/*<p><Link to="/projects/blossom-vr"> blossom vr</Link>-curr</p>*/}
 
-                <h3>installation + performance</h3>
-                <p><Link to="/projects/hacking-grains"> hacking grains </Link>-2022 <em> for 2 performers, rice cooker synthesizers, amplified rice, feedback percussion and electronics</em></p>
-                <p><Link to="/projects/the-body-you-dream-of-is-your-own"> the body you dream of is your own</Link>-2020 <em> for alto flute and 8-channel video installation</em></p>
-
-
-                <h3>game performance</h3>
-                <p><Link to="/projects/slf-ctrl"> slf-ctrl</Link>-2021</p>
-
-                <h3>video projects</h3>
-                <p><Link to="/projects/fwd-fwd-fwd-viral-zoom-video">fwd:fwd:fwd viral zoom video</Link>-2020 <em>fixed media</em></p>
-
-                <h3>orchestra/large ensemble</h3>
-                <p><Link to="/projects/the-air-we-breathe-in-intimate-spaces"> the air we breathe in intimate spaces</Link>-2019</p>
-                <p>upcoming sinfonietta for Alarm Will Sound</p>
-
-                <h3>chamber works</h3>
-                <p><Link to="projects/i-like-stringssss">i like stringssss</Link>-2021 <em> for amplified string quartet and voice</em></p>
-                {/*<p><Link to="projects/animal-farm">animal farm</Link>-2018</p> */}
-                <p><Link to="projects/these-suck">these suck</Link>-2018</p>
-                {/*<p><Link to="/projects/electric-vibratar">electric vibratar</Link>-2017</p>*/}
-                {/*<p><Link to="/projects/sometimes-i-ponder-in-a-variety-of-colors">sometimes i ponder in a variety of colors</Link>-2016</p>*/}
-
                 <h3>solos/duos</h3>
-                <p><Link to="/projects/automata">automata</Link>-2021</p>
-                <p><Link to="/projects/pull-スレッド">pull.スレッド</Link>-2021</p>
-                <p><Link to="/projects/singing">singing</Link>-2021</p>
+                <p><Link to="/projects/let's move forward with it">let's move forward with it</Link> (2022) <em> for keyboards and percussion</em></p>
+                <p><Link to="/projects/automata">automata</Link> (2021)<em> for no performer and a snare drum </em></p> 
+                <p><Link to="/projects/pull-スレッド">pull.スレッド</Link> (2021) <em>for solo cello and electronics</em></p>
+                <p><Link to="/projects/singing">singing</Link> (2021) <em> for solo snare drum and electronics</em></p>
                 {/*<p><Link to="/projects/this-cooks">this cooks</Link>-2020</p>*/}
                 {/*<p><Link to="/projects/the-way-the-body-decays">the way the body decays</Link>-2019</p> */}
                 {/*<p><Link to="/projects/one-point">one-point</Link>-2018</p>*/}
                 {/*<p><Link to="/projects/zero-point">zero-point</Link>-2017</p>*/}
 
+                <h3>chamber works</h3>
+                <p><Link to="projects/i-like-stringssss">i like stringssss</Link> (2021) <em> for amplified string quartet and voice</em></p>
+                {/*<p><Link to="projects/animal-farm">animal farm</Link>-2018</p> */}
+                <p><Link to="projects/these-suck">these suck</Link> (2018) <em>for vacuum cleaner quartet</em></p>
+                {/*<p><Link to="/projects/electric-vibratar">electric vibratar</Link>-2017</p>*/}
+                {/*<p><Link to="/projects/sometimes-i-ponder-in-a-variety-of-colors">sometimes i ponder in a variety of colors</Link>-2016</p>*/}
+
+                <h3>installation + performance</h3>
+                <p><Link to="/projects/hacking-grains"> hacking grains </Link> (2022) <em> for rice cooker synthesizers, amplified rice, percussion and electronics</em></p>
+                <p><Link to="/projects/slf-ctrl"> slf-ctrl</Link> (2021) <em> for 1 performer and game system</em></p>
+                <p><Link to="/projects/the-body-you-dream-of-is-your-own"> the body you dream of is your own</Link> (2020) <em> for alto flute and 8-channel video installation</em></p>
+
+
+        
+                
+
+                <h3>fixed media</h3>
+                <p><Link to="/projects/fwd-fwd-fwd-viral-zoom-video">fwd:fwd:fwd viral zoom video</Link> (2020) <em>fixed media</em></p>
+
+                <h3>orchestra/large ensemble</h3>
+                <p><Link to="/projects/the-air-we-breathe-in-intimate-spaces"> the air we breathe in intimate spaces</Link> (2019) <em>for symphony orchestra</em></p>
+
                 <h3>web experiments</h3>
-                <p><Link to="/projects/breathing-bells"> breathing bells </Link>-2021</p>
-                <p><Link to="/projects/2dim2sum"> 2dim2sum </Link>-2022</p>
-            
+                <p><Link to="/projects/2dim2sum"> 2dim2sum </Link> (2022) <em> web vr installation</em></p>
+                <p><Link to="/projects/breathing-bells"> breathing bells </Link> (2021) <em> web game </em></p>
+                
+                <h3>works-in-progress</h3>
+                <p>[untitled] (2023) <em> for sinfonietta [For Alarm Will Sound]</em></p>
+                <p>don't get it twisted (2023) <em> for string quartet and yarn winders [For Bergamot Quartet]</em></p>
+                <p>[untitled] (2023) <em> for hacked singing bowls</em></p>
+                <p>bill bill revolution (WIP) <em> for solo saxophonist, no saxophone, and game controller </em></p>
             
             </div>
         ),
