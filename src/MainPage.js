@@ -11,9 +11,12 @@ import chrome from "react-command-palette/dist/themes/chrome-theme";
 // then import the CSS
 import "react-command-palette/dist/themes/chrome.css";
 
+//page with all the details
+
 export default class MainPage extends React.Component {
   commandCreator = parsedStructure => {
     const { history } = this.props;
+    const { history2 } = this.props.prev
     const returnCommands = [];
     const keys = Object.keys(parsedStructure);
     for (const key of keys) {
@@ -63,7 +66,7 @@ if (isMobile) {
         >
         <div>
           <p>
-            Trevor Van de Velde: Composer and Creative Technologist
+            Trevor Van de Velde
           </p>
           
         </div>
@@ -218,9 +221,9 @@ if (isMobile) {
             }}
           >
           <div>
-            <p>
-              Trevor Van de Velde: Composer and Creative Technologist
-            </p>
+          <em>
+            ṫ̷͖̲̭̘̌r̸̡̻̭̙̅́̔ȅ̵̝͔̋͒v̵̜̠̻̲̓̒̂͝o̷̺̭̻̖̅̈́r̴͓̥̈́͐̅́ ̶̳͍̮̈́̈͂̓̉v̴̯̦̗̉ͅa̵̬͛̇n̷̻̱͈̙̓̔̊͝ ̸̥̭̙̪̝̋̉̑͐͝d̷̦̂è̷̦͙ ̷̡̮̎̔̅v̵̡̈́̓́̏e̸̙̘̘̋͗͛͜l̴̨̰͔̼͋̿ͅd̴̢̰͓̦̹̏̐̿e̴̛͖̾͛̅͛: c̶̛͇̐̂͑̾͒̆̽́̏̂̂̽̿̃̚ǫ̷͈̜̳̙̣̅̀̈͋͛̈́͌̈̑̇͗̕̕̚ͅḿ̷̡̨̧̙̺̳͍͔̗̭͙̺̖ͅp̸̢̡̡̢̼̼̹͇̳̜͈̯͕̟̀͛̊͆̾ͅó̴̮͇͗̑̒̎̇͗͊̒̑̋̈̇̕s̸͎̐è̸̪͕̬̠͍̹̘͚͚̠̙̤́̌͝ȓ̵̢̳̬͕͈̩͉̖̏̈̏̐̇̈́̍̎̈́̃͑͑͑̃ ̷͎̥͖̜̙̯̩̻̺̉́ͅ&̷̧̨̨̛͓̖̟̺͈͇͉̤̥̱̥̟͊̒̋ͅ ̸̢͍͈͎̫̩͍͙̻̑̂̋̍̊͗̓̎͊͌͗͜ş̵̪͓͍̞̪̺̰̿̑̄̄̎͆̽͆̀̆͜͝͠ȯ̵̧̞̝̫͖̝̺̜ͅu̶̡͖̹͇͍̙̩̦͚̦̻̿͑̌̽͂̿̐͌̀̿̑̚͜͝ņ̷̬̔̌̓̈̄͋̍͂̎̕̕͝͝͝ḑ̷͙̮̙̠͇̙̀̉̿͑͋̍̾͑̊̉͑̎͆̂̋͠ ̷̢̢̢̧͔̜͍̺̥͇̩̲͈̯̲̯̭͌͝ä̶̩̰̪̫̭͉́͐̓̌̈́̚͘̕͠r̸̢̗͉̹̦̹̯̺͙͕̼̘̼͕̞̀́̈̕͝ͅt̴͎̭̭̟̱͓́͒̽̀̓͛̃̚͝į̷̡͖̝͈̖̗̗̜͍͓͖̟͔̊͆͊͋͗͐̒͆͂͋́̚͝ͅs̴̛̲̟̜̹͔̄̍̀͑͆̏̔͝t̶̡̘̣͓͓̙̲̱͌̈́̄́̿̃̂̊̐͐̉̍͗͐͝
+            </em>
             
           </div>
           <CommandPalette
@@ -275,7 +278,7 @@ if (isMobile) {
           </div>
         </div>
       </div>
-            </Col>
+      </Col>
 
             <Col style={{ marginTop: "40px", backgroundColor: "#FFFFFF" }}> {/* This is the right side of the page */}
               <b>

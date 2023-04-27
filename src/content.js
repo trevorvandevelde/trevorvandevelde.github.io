@@ -118,7 +118,7 @@ let content = {
                 </p>
 
                
-                <p><Link to="/info/cv">CV</Link></p>
+                <p><Link to="/info/cv">Link to CV</Link></p>
 
                 
                 
@@ -133,21 +133,23 @@ let content = {
                 
                 
                 <div>
-                <p>TORONTO, CANADA: 02/24/2023: Thin Edge New Music Collective will perform <em>Let's Move Forward with It</em> and <em>singing.</em> I also will be performing a solo and duo set with Suzanne Kite.</p>
-                <p>NEW YORK CITY, NY: 04/30/2023: Premiere of <em>don't get it twisted</em> for Bergamot Quartet at the NYU Waverly Labs</p>
+                <p>OBERLIN, OH: 04/28/2023: Tyler Smith performs <em>Singing</em> at Oberlin College</p>
+                <p>NEW YORK CITY, NY: 04/30/2023: Premiere of <em>...I...Like...Stringssss... V2</em> for Bergamot Quartet at the NYU Waverly Labs</p>
                 <p>COLUMBIA, MO: 07/29/2023: Premiere of new work for Alarm Will Sound at the Mizzou New Music Festival</p>
 
                 </div>
                 <h3>past events</h3>
 
                 <div>
+                <p>LAWRENCE, KANSAS: 04/22/2023: Luke Helker premieres <em>Bubble Music </em>  for modified bubble machine as part of the Ears to the Earth Festival </p>
+                <p>TORONTO, CANADA: 02/24/2023: Thin Edge New Music Collective will perform <em>Let's Move Forward with It</em> and <em>singing.</em> I also will be performing a solo and duo set with Suzanne Kite.</p>
                 <p>CAMBRIDGE, MA: 10/08/2022: Chromic Duo performs <em>Hacking Grains</em> at the MIT Museum</p>
                 <p>NEW YORK CITY, NY: 06/25/2022: Premiere of <em>Let's Move Forward with It</em> at The Dimenna Center at the Yarn/Wire Institute</p>
                 <p>HANOVER, NH: 04/30/2022: Chromic Duo premieres <em>Hacking Grains</em> at Dartmouth College</p>
 
                 </div>
                 
-                <p><em>anything older i am unsure and simply do not remember. this list will update as I unlock old memories with vivid detail</em></p>
+                <p><em>anything older i am unsure and simply do not remember. this list will update as I remember to update this list</em></p>
             </div>
 
         )
@@ -158,10 +160,23 @@ let content = {
     contact: {
         body: (
             <div>
-            
-                <p>email: trevorvandevelde (at) gmail (dot) com</p>
+                
+                <p>email: trevorvandevelde@gmail.com</p>
+
+                
             </div>
         )
+    },
+
+    objects: {
+
+        body: (
+            <div>
+
+            </div>
+        )
+
+
     },
     
     projects: {
@@ -463,6 +478,8 @@ let content = {
                     In short, LMFWI is an exploration of these sounds and relationships formed by contemporary office culture.
                     </p>
                     <p><em>Let's Move Foward with it was written and premiered at the 2022 Yarn/Wire Institute.</em></p>
+
+                    <ReactPlayer url ="https://www.youtube.com/watch?v=rGY9Qf2sN38" controls = "true"></ReactPlayer>
                 </div>
             )
 
@@ -512,8 +529,8 @@ let content = {
                 <p><Link to="/projects/breathing-bells"> breathing bells </Link> (2021) <em> web game </em></p>
                 
                 <h3>works-in-progress</h3>
-                <p>[untitled] (2023) <em> for sinfonietta [For Alarm Will Sound]</em></p>
-                <p>don't get it twisted (2023) <em> for string quartet and yarn winders [For Bergamot Quartet]</em></p>
+                <p>you can (be) anything (2023) <em> for sinfonietta [For Alarm Will Sound]</em></p>
+                <p>...I...Like...Stringssss...V2 (2023) <em> for string quartet and yarn winders [For Bergamot Quartet]</em></p>
                 <p>[untitled] (2023) <em> for hacked singing bowls</em></p>
                 <p>bill bill revolution (WIP) <em> for solo saxophonist, no saxophone, and game controller </em></p>
             
@@ -521,12 +538,9 @@ let content = {
         ),
     },
     
-    publications: {
+    press: {
         body: (
             <div>
-                <p>
-                    things i didn't write
-                </p>
                 <p> 
                     <a target="_blank" href="https://sinetheta.net/23.html"> Sine Theta Interview</a>
                 </p>

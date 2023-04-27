@@ -11,6 +11,18 @@ import chrome from "react-command-palette/dist/themes/chrome-theme";
 // then import the CSS
 import "react-command-palette/dist/themes/chrome.css";
 
+//first page with when u enter, not the main page. 
+
+import front_pic1 from "./pictures/hackingGrains/hackingGrains3.jpg"; 
+import front_pic2 from "./pictures/lazySusan/lazySusan1.JPG";
+import front_pic3 from "./pictures/lightbox/lightbox1.JPG";
+import front_pic4 from "./pictures/hackingGrains/hackingGrains7.jpg";
+import front_pic5 from "./pictures/hackingGrains/hackingGrains6.jpg";
+import front_pic6 from "./pictures/hackingGrains/hackingGrains2.jpg";
+import snare_pic from "./pictures/snarePic.JPG";
+import dimSum_pic from "./pictures/dimSumScan.JPG";
+import singingBowl_pic from "./pictures/singingBowl.jpg";
+
 
 class Home extends React.Component {
   commandCreator = (parsedStructure) => {
@@ -61,9 +73,9 @@ class Home extends React.Component {
           }}
         >
           <div>
-            <p>
-              Trevor Van de Velde: Composer and Creative Technologist
-            </p>
+            <em>
+            ṫ̷͖̲̭̘̌r̸̡̻̭̙̅́̔ȅ̵̝͔̋͒v̵̜̠̻̲̓̒̂͝o̷̺̭̻̖̅̈́r̴͓̥̈́͐̅́ ̶̳͍̮̈́̈͂̓̉v̴̯̦̗̉ͅa̵̬͛̇n̷̻̱͈̙̓̔̊͝ ̸̥̭̙̪̝̋̉̑͐͝d̷̦̂è̷̦͙ ̷̡̮̎̔̅v̵̡̈́̓́̏e̸̙̘̘̋͗͛͜l̴̨̰͔̼͋̿ͅd̴̢̰͓̦̹̏̐̿e̴̛͖̾͛̅͛: c̶̛͇̐̂͑̾͒̆̽́̏̂̂̽̿̃̚ǫ̷͈̜̳̙̣̅̀̈͋͛̈́͌̈̑̇͗̕̕̚ͅḿ̷̡̨̧̙̺̳͍͔̗̭͙̺̖ͅp̸̢̡̡̢̼̼̹͇̳̜͈̯͕̟̀͛̊͆̾ͅó̴̮͇͗̑̒̎̇͗͊̒̑̋̈̇̕s̸͎̐è̸̪͕̬̠͍̹̘͚͚̠̙̤́̌͝ȓ̵̢̳̬͕͈̩͉̖̏̈̏̐̇̈́̍̎̈́̃͑͑͑̃ ̷͎̥͖̜̙̯̩̻̺̉́ͅ&̷̧̨̨̛͓̖̟̺͈͇͉̤̥̱̥̟͊̒̋ͅ ̸̢͍͈͎̫̩͍͙̻̑̂̋̍̊͗̓̎͊͌͗͜ş̵̪͓͍̞̪̺̰̿̑̄̄̎͆̽͆̀̆͜͝͠ȯ̵̧̞̝̫͖̝̺̜ͅu̶̡͖̹͇͍̙̩̦͚̦̻̿͑̌̽͂̿̐͌̀̿̑̚͜͝ņ̷̬̔̌̓̈̄͋̍͂̎̕̕͝͝͝ḑ̷͙̮̙̠͇̙̀̉̿͑͋̍̾͑̊̉͑̎͆̂̋͠ ̷̢̢̢̧͔̜͍̺̥͇̩̲͈̯̲̯̭͌͝ä̶̩̰̪̫̭͉́͐̓̌̈́̚͘̕͠r̸̢̗͉̹̦̹̯̺͙͕̼̘̼͕̞̀́̈̕͝ͅt̴͎̭̭̟̱͓́͒̽̀̓͛̃̚͝į̷̡͖̝͈̖̗̗̜͍͓͖̟͔̊͆͊͋͗͐̒͆͂͋́̚͝ͅs̴̛̲̟̜̹͔̄̍̀͑͆̏̔͝t̶̡̘̣͓͓̙̲̱͌̈́̄́̿̃̂̊̐͐̉̍͗͐͝
+            </em>
             
           </div>
           <CommandPalette
@@ -121,7 +133,66 @@ class Home extends React.Component {
       </Col>
 
       <Col>
+        <center>
+            <img src={front_pic1} //alt=""
+              style={{
+              width: "450px",
+              marginTop: "20px",
+              }}
+            />
+        </center>
+        <center>
+            <img src={snare_pic} //alt=""
+              style={{
+              width: "450px",
+              marginTop: "20px",
+              }}
+            />
+        </center>
+
+        <center>
+            <img src={front_pic4} //alt=""
+              style={{
+              width: "450px",
+              marginTop: "20px",
+              }}
+            />
+        </center>
+
+        <center>
+            <img src={front_pic6} //alt=""
+              style={{
+              width: "450px",
+              marginTop: "20px",
+              }}
+            />
+        </center>
+      
       </Col>
+
+      <Col>
+      <center>
+            <img src={dimSum_pic} //alt=""
+              style={{
+              width: "450px",
+              marginTop: "20px",
+              }}
+            />
+        </center>
+     
+        <center>
+            <img src={front_pic5} //alt=""
+              style={{
+              width: "450px",
+              marginTop: "20px",
+              }}
+            />
+        </center>
+        
+      </Col>
+
+
+  
       </Row>
 </Container>
     );
