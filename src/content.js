@@ -164,7 +164,20 @@ let content = {
                 
                 <p>email: trevorvandevelde@gmail.com</p>
 
+                <h3>information regarding scores</h3>
+                <p>I provide all my scores upon email request. Please write to me and specify the purpose of the request (score-studying/performance/etc)</p>
                 
+                Payment works on a "pay what you can" model. If you belong to a big institution / ensemble / orchestra then I will ask for standard score fees ($25-50)
+                depending on instrumentation, length, and complexity. 
+                If you are a student and only want to study the score or a student ensemble without financial support you can have it for free. For anything in between 
+                
+
+
+                <h3>rental of materials</h3>
+                <p>Some pieces require custom handmade electronics or bespoke objects - if you are interested in performing those pieces, email me and we can figure out 
+                    rental pricing, shipping costs, or alternative solutions/replacements. 
+                </p>
+
             </div>
         )
     },
