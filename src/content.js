@@ -133,14 +133,15 @@ let content = {
                 
                 
                 <div>
-                <p>OBERLIN, OH: 04/28/2023: Tyler Smith performs <em>Singing</em> at Oberlin College</p>
-                <p>NEW YORK CITY, NY: 04/30/2023: Premiere of <em>...I...Like...Stringssss... V2</em> for Bergamot Quartet at the NYU Waverly Labs</p>
-                <p>COLUMBIA, MO: 07/29/2023: Premiere of new work for Alarm Will Sound at the Mizzou New Music Festival</p>
 
                 </div>
                 <h3>past events</h3>
 
                 <div>
+                <p>DARMSTADT, GERMANY: 08/17/2023: Premiere of <em>i eat electric sheep</em> for modified saxophone and electronics</p>
+                <p>COLUMBIA, MO: 07/29/2023: Premiere of <em>u can be anything</em>for Alarm Will Sound at the Mizzou New Music Festival</p>
+                <p>NEW YORK CITY, NY: 04/30/2023: Premiere of <em>...I...Like...Stringssss... V2</em> for Bergamot Quartet at the NYU Waverly Labs</p>
+                <p>OBERLIN, OH: 04/28/2023: Tyler Smith performs <em>Singing</em> at Oberlin College</p>
                 <p>LAWRENCE, KANSAS: 04/22/2023: Luke Helker premieres <em>Bubble Music </em>  for modified bubble machine as part of the Ears to the Earth Festival </p>
                 <p>TORONTO, CANADA: 02/24/2023: Thin Edge New Music Collective will perform <em>Let's Move Forward with It</em> and <em>singing.</em> I also will be performing a solo and duo set with Suzanne Kite.</p>
                 <p>CAMBRIDGE, MA: 10/08/2022: Chromic Duo performs <em>Hacking Grains</em> at the MIT Museum</p>
@@ -168,11 +169,20 @@ let content = {
         )
     },
 
-    objects: {
+    experiments: {
 
         body: (
             <div>
-
+            <ReactPlayer url="https://vimeo.com/743475376?share=copy" controls = "true" align = "left"></ReactPlayer>
+            <p>Bill Bill Revolution, Interactive Unity Sketch</p>
+            <iframe width="440" height="600" src="https://www.instagram.com/p/CjB-95rL7ye/embed" frameborder="0" scrolling = "no"></iframe>
+            <p>Sound Reactive Light Box </p>
+            <iframe width="440" height="600" src="https://www.instagram.com/p/CsGXozMgUnW/embed" frameborder="0" scrolling = "no"></iframe>
+            <p>Bubble Fight Stick Synth </p>
+            <ReactPlayer url="https://www.youtube.com/watch?v=KF1nsEjSju8" controls = "true" align = "left"></ReactPlayer>
+            <p>Solo Improv at Dartmouth New Music Festival </p>
+            <iframe width="440" height="600" src="https://www.instagram.com/p/CoIN3vjAigW/embed" frameborder="0"scrolling = "no"></iframe>
+            <p>Levitating Singing Bowls </p>
             </div>
         )
 
@@ -292,6 +302,18 @@ let content = {
                 </div>
             ),
         },
+
+        "u-can-be-anything" : {  
+            body: (
+                <div>
+                    <p>
+                    u can be anything is about beginnings - about how to start a piece, and how sustaining that start might lead somewhere. 
+                    </p>
+                    Premiered by Alarm will Sound at Mizzou Theater. 
+                </div>
+            ),
+        },
+
         "sometimes-i-ponder-in-a-variety-of-colors": {
             body: (
                 <div>
@@ -419,11 +441,17 @@ let content = {
         "i-like-stringssss" : {  
             body: (
                 <div>
-                    <p> for string quartet and amplified voices </p>
-                    <p>ILS is an exploration of inately ASMR-like qualities of contemporary music 
-                    and ponders the secretive question, "do they like strings?" </p>
-                    <p> workshopped and performed by the Jack Quartet for New Music on the Point 2021 </p>
+                    <p> for amplified string quartet and voices </p>
+
+                    <p>i...like...stringssss... is a piece about the material history of strings and how its related to the creation of the universe </p>
+
+                    <p> v1 was workshopped and premiered by the Jack Quartet for New Music on the Point 2021 </p>
                     <ReactPlayer url ="https://vimeo.com/569095481" controls = "true"></ReactPlayer>
+
+                    <p> v2 was workshopped and premiered by the Bergamot Quartet at NYU Waverly Labs 2023</p>
+
+
+                    <p> If you would like the perform a specific version of the piece, just let me know! I hope to keep this page updated with all versions as a living archive.</p>
                 </div>
             ),
         },
@@ -434,6 +462,16 @@ let content = {
                     <p> for solo cello and electronics </p>
                     <p> Written and Premiered by Robert Hurley at UC Berkeley, 2021 </p>
                     <ReactPlayer url ="https://vimeo.com/562077371" controls = "true"></ReactPlayer>
+                </div>
+            ),
+        },
+
+        "i-eat-electric-sheep" : {  
+            body: (
+                <div>
+                    <p> for modified saxophone (or bass clarinet) and electronics</p>
+                    <p> Written and Premiered by Tasuku Noguchi at the Darmstadt Ferienkurse 2023</p>
+                    <p>Audio coming soon</p>
                 </div>
             ),
         },
@@ -449,6 +487,8 @@ let content = {
                 </div>
             ),
         },
+
+        
 
         "automata" : {
             body: (
@@ -493,6 +533,7 @@ let content = {
                 {/*<p><Link to="/projects/blossom-vr"> blossom vr</Link>-curr</p>*/}
 
                 <h3>solos/duos</h3>
+                <p><Link to="/projects/i-eat-electric-sheep">i eat electric sheep</Link> (2023)<em> for hookah sax and electronics </em></p> 
                 <p><Link to="/projects/let's move forward with it">let's move forward with it</Link> (2022) <em> for keyboards and percussion</em></p>
                 <p><Link to="/projects/automata">automata</Link> (2021)<em> for no performer and a snare drum </em></p> 
                 <p><Link to="/projects/pull-スレッド">pull.スレッド</Link> (2021) <em>for solo cello and electronics</em></p>
@@ -503,7 +544,7 @@ let content = {
                 {/*<p><Link to="/projects/zero-point">zero-point</Link>-2017</p>*/}
 
                 <h3>chamber works</h3>
-                <p><Link to="projects/i-like-stringssss">i like stringssss</Link> (2021) <em> for amplified string quartet and voice</em></p>
+                <p><Link to="projects/i-like-stringssss">i like stringssss</Link> v1 (2021), v2 (2023) <em> for amplified string quartet and voice</em></p>
                 {/*<p><Link to="projects/animal-farm">animal farm</Link>-2018</p> */}
                 <p><Link to="projects/these-suck">these suck</Link> (2018) <em>for vacuum cleaner quartet</em></p>
                 {/*<p><Link to="/projects/electric-vibratar">electric vibratar</Link>-2017</p>*/}
@@ -515,24 +556,18 @@ let content = {
                 <p><Link to="/projects/the-body-you-dream-of-is-your-own"> the body you dream of is your own</Link> (2020) <em> for alto flute and 8-channel video installation</em></p>
 
 
-        
-                
-
                 <h3>fixed media</h3>
                 <p><Link to="/projects/fwd-fwd-fwd-viral-zoom-video">fwd:fwd:fwd viral zoom video</Link> (2020) <em>fixed media</em></p>
 
                 <h3>orchestra/large ensemble</h3>
+                <p><Link to="/projects/u-can-be-anything"> u can be anything </Link> (2023) <em> for amplified sinfonietta</em></p>
                 <p><Link to="/projects/the-air-we-breathe-in-intimate-spaces"> the air we breathe in intimate spaces</Link> (2019) <em>for symphony orchestra</em></p>
+
 
                 <h3>web experiments</h3>
                 <p><Link to="/projects/2dim2sum"> 2dim2sum </Link> (2022) <em> web vr installation</em></p>
                 <p><Link to="/projects/breathing-bells"> breathing bells </Link> (2021) <em> web game </em></p>
-                
-                <h3>works-in-progress</h3>
-                <p>you can (be) anything (2023) <em> for sinfonietta [For Alarm Will Sound]</em></p>
-                <p>...I...Like...Stringssss...V2 (2023) <em> for string quartet and yarn winders [For Bergamot Quartet]</em></p>
-                <p>[untitled] (2023) <em> for hacked singing bowls</em></p>
-                <p>bill bill revolution (WIP) <em> for solo saxophonist, no saxophone, and game controller </em></p>
+            
             
             </div>
         ),
