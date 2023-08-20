@@ -546,8 +546,8 @@ let content = {
                 {/*<p><Link to="/projects/blossom-vr"> blossom vr</Link>-curr</p>*/}
 
                 <h3>solos/duos</h3>
-                <p><Link to="/projects/i-eat-electric-sheep">i eat electric sheep</Link> (2023)<em> for hookah sax and electronics </em></p> 
-                <p><Link to="/projects/let's move forward with it">let's move forward with it</Link> (2022) <em> for keyboards and percussion</em></p>
+                <p><Link to="/projects/i-eat-electric-sheep">i eat electric sheep</Link> (2023)<em> for solo saxophone (or contrabass clarinet) and electronics </em></p> 
+                <p><Link to="/projects/let's move forward with it">let's move forward with it</Link> (2022) <em> for 2 percussionists</em></p>
                 <p><Link to="/projects/automata">automata</Link> (2021)<em> for no performer and a snare drum </em></p> 
                 <p><Link to="/projects/pull-スレッド">pull.スレッド</Link> (2021) <em>for solo cello and electronics</em></p>
                 <p><Link to="/projects/singing">singing</Link> (2021) <em> for solo snare drum and electronics</em></p>
