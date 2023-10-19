@@ -99,7 +99,7 @@ let content = {
                     </center>
                 </p>
                 <p> 
-                Trevor Van de Velde (he/him) is an experimental composer, sound artist, instrument builder, and creative programmer based in NYC/SF. 
+                Trevor Van de Velde (he/him) is an experimental composer, sound artist, instrument builder, and creative programmer based in NYC. 
  
                 </p>
                 <p>
@@ -107,10 +107,10 @@ let content = {
 
                 </p>
                 <p>
-                 He is the recipient of the 2018 Nicola De Lorenzo Prize in Music Composition, 2020 Eisner Prize for the Creative Arts, 2021 Guarini Alumni Award, and Hopkins Center for the Arts Art+Technology grant. He presented work at festivals such as New Music On the Point (2021), The Summer Institute of Contemporary Performance (2021), Labo Montreal (2021), Yarn/Wire Institute (2022) and Ensemble Evolution (2022) and has worked with a variety ensembles such as JACK Quartet, The Living Earth Show, Chromic Duo, Yarn/Wire, and the International Contemporary Ensemble.
+                 He is the recipient of the 2018 Nicola De Lorenzo Prize in Music Composition, 2020 Eisner Prize for the Creative Arts, 2021 Guarini Alumni Award, and Hopkins Center for the Arts Art+Technology grant. He presented work at festivals such as New Music On the Point (2021), The Summer Institute of Contemporary Performance (2021), Labo Montreal (2021), Yarn/Wire Institute (2022), Ensemble Evolution (2022), Mizzou International Composers Festival (2023), and Darmstadt Ferienkurse (2023) and has worked with a variety ensembles such as JACK Quartet, Chromic Duo, Bergamot Quartet, and Alarm Will Sound. 
                 </p>
                 <p>
-                    He holds a Bachelor of Arts degrees in Computer Science and Music Composition from UC Berkeley and a Master of Arts in Digital Music from Dartmouth College. He is currently pursuing a Ph.D in Music Composition at NYU GSAS studying with Jaime Olivier La Rosa and Elizabeth Hoffman. 
+                He holds a Bachelor of Arts degrees in Computer Science and Music Composition from UC Berkeley and a Master of Arts in Digital Music from Dartmouth College. He is currently pursuing a Ph.D in Music Composition at NYU GSAS studying with Jaime Olivier La Rosa and Elizabeth Hoffman. 
                 </p>
 
                 <p>
@@ -549,6 +549,9 @@ let content = {
             <div>   
                 {/*<h3>vr work</h3> */}
                 {/*<p><Link to="/projects/blossom-vr"> blossom vr</Link>-curr</p>*/}
+                <h3>future projects</h3>
+                <p>New Work for Tilt Brass (April 2024)</p>
+                <p>New Work for Locus Collective (May 2024)</p>
 
                 <h3>solos/duos</h3>
                 <p><Link to="/projects/i-eat-electric-sheep">i eat electric sheep</Link> (2023)<em> for solo saxophone (or contrabass clarinet) and electronics </em></p> 
