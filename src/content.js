@@ -322,7 +322,9 @@ let content = {
                     <p>
                     u can be anything is about beginnings - about how to start a piece, and how sustaining that start might lead somewhere. 
                     </p>
-                    Premiered by Alarm will Sound at Mizzou Theater. 
+                    Written for Alarm Will Sound for the Mizzou Internatinoal Composers Festival 2023. Premiered at Mizzou Theater.  
+
+                    <p><ReactPlayer url ="https://soundcloud.com/trevor-van-de-velde/u-can-be-anything" controls = "true"></ReactPlayer></p>
                 </div>
             ),
         },
@@ -483,8 +485,11 @@ let content = {
             body: (
                 <div>
                     <p> for modified saxophone (or bass clarinet) and electronics</p>
+
+                    <p>A speaker, a garden hose, a whammy bar, and a saxophone walk into a bar... </p>
                     <p> Written and Premiered by Tasuku Noguchi at the Darmstadt Ferienkurse 2023</p>
-                    <p>Audio coming soon</p>
+                    
+                    <p><ReactPlayer url ="https://soundcloud.com/trevor-van-de-velde/i-eat-electric-sheep" controls = "true"></ReactPlayer></p>
                 </div>
             ),
         },
