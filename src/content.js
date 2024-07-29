@@ -544,14 +544,31 @@ let content = {
 
         },
 
+        "SUPERLUBRICITY" : {
+            body: (
+                <div>
+                    <p> for melodicas, balloons, and electronics</p>
+                    
+                    <p>
+                    Superlubricity is the state between sliding systems where friction is or is close to absolute zero. This piece is almost everything but that. 
+                    Performers are tasked with communicating each other via modified melodicas powered by foot pumps. The players must use these external lungs to communicate with one another in a banter thats anything but smooth. 
+                    </p>
+                    <p><em>Superlubricity is for any # of performers. It was premiered as a trio by Tilt Brass at the Dimenna Center</em></p>
+
+                    <ReactPlayer url ="https://vimeo.com/984661850" controls = "true"></ReactPlayer>
+                </div>
+            )
+
+
+        },
+
 
         body: (
             <div>   
                 {/*<h3>vr work</h3> */}
                 {/*<p><Link to="/projects/blossom-vr"> blossom vr</Link>-curr</p>*/}
                 <h3>future projects</h3>
-                <p>New Work for Tilt Brass (April 2024)</p>
-                <p>New Work for Locus Collective (May 2024)</p>
+        
 
                 <h3>solos/duos</h3>
                 <p><Link to="/projects/i-eat-electric-sheep">i eat electric sheep</Link> (2023)<em> for solo saxophone (or contrabass clarinet) and electronics </em></p> 
@@ -565,6 +582,7 @@ let content = {
                 {/*<p><Link to="/projects/zero-point">zero-point</Link>-2017</p>*/}
 
                 <h3>chamber works</h3>
+                <p><Link to="projects/superlubricity">SUPERLUBRICITY</Link> (2024) <em> for melodicas, balloons, and electronics</em></p>
                 <p><Link to="projects/i-like-stringssss">i like stringssss</Link> v1 (2021), v2 (2023) <em> for amplified string quartet and voice</em></p>
                 {/*<p><Link to="projects/animal-farm">animal farm</Link>-2018</p> */}
                 <p><Link to="projects/these-suck">these suck</Link> (2018) <em>for vacuum cleaner quartet</em></p>
