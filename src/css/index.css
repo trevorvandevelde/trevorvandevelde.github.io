@@ -18,3 +18,8 @@ p {
 /* li {
   font-size: 0.85em;
 } */
+
+.contentObjectMain{
+  display: flex;
+  justify-content: space-evenly;
+}

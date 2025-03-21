@@ -19,3 +19,8 @@ img.zoomed {
   background:pink;
   transform: translateZ(0);
 }
+
+.contentObjectMain{
+  display: flex;
+  justify-content: space-evenly;
+}

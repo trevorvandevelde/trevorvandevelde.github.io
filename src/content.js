@@ -107,7 +107,7 @@ let content = {
 
                 </p>
                 <p>
-                 He is the recipient of the 2018 Nicola De Lorenzo Prize in Music Composition, 2020 Eisner Prize for the Creative Arts, 2021 Guarini Alumni Award, and Hopkins Center for the Arts Art+Technology grant. He presented work at festivals such as New Music On the Point (2021), The Summer Institute of Contemporary Performance (2021), Labo Montreal (2021), Yarn/Wire Institute (2022), Ensemble Evolution (2022), Mizzou International Composers Festival (2023), and Darmstadt Ferienkurse (2023) and has worked with a variety ensembles such as JACK Quartet, Chromic Duo, Bergamot Quartet, and Alarm Will Sound. 
+                He is the recipient of the 2018 Nicola De Lorenzo Prize in Music Composition, 2020 Eisner Prize for the Creative Arts, 2021 Guarini Alumni Award, Hopkins Center for the Arts Art+Technology grant, and the Rhizome Micro Grant. He presented work at festivals such as Yarn/Wire Institute (2022), Ensemble Evolution (2022), Mizzou International Composers Festival (2023), Darmstadt Ferienkurse (2023), Danish New Music Academy (2024) and has worked with a variety ensembles such as JACK Quartet, Chromic Duo, Bergamot Quartet, Alarm Will Sound, Aksiom Ensemble, and Tak Ensemble. He is currently an Art+Code fellow at the New Museum. 
                 </p>
                 <p>
                 He holds a Bachelor of Arts degrees in Computer Science and Music Composition from UC Berkeley and a Master of Arts in Digital Music from Dartmouth College. He is currently pursuing a Ph.D in Music Composition at NYU GSAS studying with Jaime Olivier La Rosa and Elizabeth Hoffman. 
@@ -130,6 +130,7 @@ let content = {
         body: (
             <div>
                 <h3>upcoming events</h3>
+                <p>New York City, NY: 04/11/2025: Premiere of <em>Eating Silica</em> for Tak Ensemble at Center for Performance Research</p>
                 
                 
                 <div>
@@ -138,6 +139,12 @@ let content = {
                 <h3>past events</h3>
 
                 <div>
+            
+                <p>New York City, NY: 01/31/2025: Hacking Grains x Food Mahjong x New Inc at Ace Hotel Brooklyn</p>
+                <p>New York City, NY: 11/21/2025: Solo Electronics at Center for Performance Research</p>
+                <p>Aarhus, Denmark: 06/11/2024: <em>SUPERLUBRICITY</em> for Aksiom Ensemble at the Danish New Music Academy</p>
+                <p>Chicago, Il: 05/15/2024: Electronics Duo with Dorothy Carlos as part of Locus Collective</p>
+                <p>New York City, NY: 05/05/2024: Premiere of <em>SUPERLUBRICITY</em> for Tilt Brass at Dimenna Center</p>
                 <p>DARMSTADT, GERMANY: 08/17/2023: Premiere of <em>i eat electric sheep</em> for modified saxophone and electronics</p>
                 <p>COLUMBIA, MO: 07/29/2023: Premiere of <em>u can be anything</em>for Alarm Will Sound at the Mizzou New Music Festival</p>
                 <p>NEW YORK CITY, NY: 04/30/2023: Premiere of <em>...I...Like...Stringssss... V2</em> for Bergamot Quartet at the NYU Waverly Labs</p>
@@ -149,8 +156,7 @@ let content = {
                 <p>HANOVER, NH: 04/30/2022: Chromic Duo premieres <em>Hacking Grains</em> at Dartmouth College</p>
 
                 </div>
-                
-                <p><em>anything older i am unsure and simply do not remember. this list will update as I remember to update this list</em></p>
+              
             </div>
 
         )
@@ -555,7 +561,7 @@ let content = {
                     </p>
                     <p><em>Superlubricity is for any # of performers. It was premiered as a trio by Tilt Brass at the Dimenna Center</em></p>
 
-                    <ReactPlayer url ="https://vimeo.com/984661850" controls = "true"></ReactPlayer>
+                    <ReactPlayer url ="https://vimeo.com/1008050435/6918a3e32a" controls = "true"></ReactPlayer>
                 </div>
             )
 
@@ -568,7 +574,8 @@ let content = {
                 {/*<h3>vr work</h3> */}
                 {/*<p><Link to="/projects/blossom-vr"> blossom vr</Link>-curr</p>*/}
                 <h3>future projects</h3>
-        
+                <p>New Work for Solo Piano & Electronics</p>
+                <p>New Work for Mezzo Soprano, Piccolo, Contrabass Clarinet, Percussion, and Violin</p>
 
                 <h3>solos/duos</h3>
                 <p><Link to="/projects/i-eat-electric-sheep">i eat electric sheep</Link> (2023)<em> for solo saxophone (or contrabass clarinet) and electronics </em></p> 
