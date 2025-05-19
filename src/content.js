@@ -107,8 +107,9 @@ let content = {
 
                 </p>
                 <p>
-                He is the recipient of the 2018 Nicola De Lorenzo Prize in Music Composition, 2020 Eisner Prize for the Creative Arts, 2021 Guarini Alumni Award, Hopkins Center for the Arts Art+Technology grant, and the Rhizome Micro Grant. He presented work at festivals such as Yarn/Wire Institute (2022), Ensemble Evolution (2022), Mizzou International Composers Festival (2023), Darmstadt Ferienkurse (2023), Danish New Music Academy (2024) and has worked with a variety ensembles such as JACK Quartet, Chromic Duo, Bergamot Quartet, Alarm Will Sound, Aksiom Ensemble, and Tak Ensemble. He is currently an Art+Code fellow at the New Museum. 
+                He is the recipient of the 2018 Nicola De Lorenzo Prize in Music Composition, 2020 Eisner Prize for the Creative Arts, 2021 Guarini Alumni Award, Hopkins Center for the Arts Art+Technology grant, and the Rhizome Micro Grant. He presented work at festivals such as Yarn/Wire Institute (2022), Ensemble Evolution (2022), Mizzou International Composers Festival (2023), Darmstadt Ferienkurse (2023), Danish New Music Academy (2024) and has worked with a variety ensembles such as JACK Quartet, Chromic Duo, Bergamot Quartet, Alarm Will Sound, Aksiom Ensemble, and Tak Ensemble. 
                 </p>
+                <p>He is currently an Art+Code Fellow at the New Museum.</p>
                 <p>
                 He holds a Bachelor of Arts degrees in Computer Science and Music Composition from UC Berkeley and a Master of Arts in Digital Music from Dartmouth College. He is currently pursuing a Ph.D in Music Composition at NYU GSAS studying with Jaime Olivier La Rosa and Elizabeth Hoffman. 
                 </p>
@@ -574,8 +575,8 @@ let content = {
                 {/*<h3>vr work</h3> */}
                 {/*<p><Link to="/projects/blossom-vr"> blossom vr</Link>-curr</p>*/}
                 <h3>future projects</h3>
-                <p>New Work for Solo Piano & Electronics</p>
-                <p>New Work for Mezzo Soprano, Piccolo, Contrabass Clarinet, Percussion, and Violin</p>
+                <p>COCKPIT for Jenn Mong (Solo Piano + Electronics)</p>
+                <p>Eating Silica for Tak Ensemble (Mixed Ensemble)</p>
 
                 <h3>solos/duos</h3>
                 <p><Link to="/projects/i-eat-electric-sheep">i eat electric sheep</Link> (2023)<em> for solo saxophone (or contrabass clarinet) and electronics </em></p> 
