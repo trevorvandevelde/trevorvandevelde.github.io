@@ -132,6 +132,7 @@ class Home extends React.Component {
       </div>
       </Col>
 
+      {!isMobile && (
       <Col>
         <center>
             <img src={front_pic1} //alt=""
@@ -169,7 +170,9 @@ class Home extends React.Component {
         </center>
       
       </Col>
+      )}
 
+{!isMobile && (
       <Col>
       <center>
             <img src={dimSum_pic} //alt=""
@@ -190,6 +193,8 @@ class Home extends React.Component {
         </center>
         
       </Col>
+)}
+    
 
 
   

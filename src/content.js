@@ -569,19 +569,36 @@ let content = {
 
         },
 
+         "EATING-SILICA" : {
+            body: (
+                <div>
+                    <p> piccolo, contrabass clarinet, percussion, violin, voice</p>
+                    
+                    <p>
+                    Silica gel is generally considered non-toxic, however, swallowing silica gel packets (especially those containing cobalt chloride) can cause dehydration and an aggravated stomach. I once had a dream where I'd eaten a lot of it--little bubbles and foam seeped out of my body and it was really gross. In EATING SILICA, performers dive into the gut and swim through bubbly and grotesque sonic material; squeaking, popping, and sliding around. 
+                    </p>
+                    <p><em>Eating Silica was premiered by Tak Ensemble at the Center for Performance Research</em></p>
+
+                    <ReactPlayer url ="https://vimeo.com/1097643303?share=copy#t=0" controls = "true"></ReactPlayer>
+                </div>
+            )
+
+
+        },
+
 
         body: (
             <div>   
                 {/*<h3>vr work</h3> */}
                 {/*<p><Link to="/projects/blossom-vr"> blossom vr</Link>-curr</p>*/}
-                <h3>future projects</h3>
+                <h3>projects-in-progress</h3>
                 <p>COCKPIT for Jenn Mong (Solo Piano + Electronics)</p>
-                <p>Eating Silica for Tak Ensemble (Mixed Ensemble)</p>
 
+                
                 <h3>solos/duos</h3>
-                <p><Link to="/projects/i-eat-electric-sheep">i eat electric sheep</Link> (2023)<em> for solo saxophone (or contrabass clarinet) and electronics </em></p> 
+                {/*<p><Link to="/projects/i-eat-electric-sheep">i eat electric sheep</Link> (2023)<em> for solo saxophone (or contrabass clarinet) and electronics </em></p> */}
                 <p><Link to="/projects/let's move forward with it">let's move forward with it</Link> (2022) <em> for 2 percussionists</em></p>
-                <p><Link to="/projects/automata">automata</Link> (2021)<em> for no performer and a snare drum </em></p> 
+                {/*<p><Link to="/projects/automata">automata</Link> (2021)<em> for no performer and a snare drum </em></p> */}
                 <p><Link to="/projects/pull-スレッド">pull.スレッド</Link> (2021) <em>for solo cello and electronics</em></p>
                 <p><Link to="/projects/singing">singing</Link> (2021) <em> for solo snare drum and electronics</em></p>
                 {/*<p><Link to="/projects/this-cooks">this cooks</Link>-2020</p>*/}
@@ -590,6 +607,7 @@ let content = {
                 {/*<p><Link to="/projects/zero-point">zero-point</Link>-2017</p>*/}
 
                 <h3>chamber works</h3>
+                <p><Link to="projects/Eating-Silica">Eating SilicaA</Link> (2025) <em> for flute, contrabass clarinet, percussion, violin, voice</em></p>
                 <p><Link to="projects/superlubricity">SUPERLUBRICITY</Link> (2024) <em> for melodicas, balloons, and electronics</em></p>
                 <p><Link to="projects/i-like-stringssss">i like stringssss</Link> v1 (2021), v2 (2023) <em> for amplified string quartet and voice</em></p>
                 {/*<p><Link to="projects/animal-farm">animal farm</Link>-2018</p> */}
@@ -599,8 +617,8 @@ let content = {
 
                 <h3>installation + performance</h3>
                 <p><Link to="/projects/hacking-grains"> hacking grains </Link> (2022) <em> for rice cooker synthesizers, amplified rice, percussion and electronics</em></p>
-                <p><Link to="/projects/slf-ctrl"> slf-ctrl</Link> (2021) <em> for 1 performer and game system</em></p>
-                <p><Link to="/projects/the-body-you-dream-of-is-your-own"> the body you dream of is your own</Link> (2020) <em> for alto flute and 8-channel video installation</em></p>
+                {/*<p><Link to="/projects/slf-ctrl"> slf-ctrl</Link> (2021) <em> for 1 performer and game system</em></p>*/}
+                {/*<p><Link to="/projects/the-body-you-dream-of-is-your-own"> the body you dream of is your own</Link> (2020) <em> for alto flute and 8-channel video installation</em></p> */}
 
 
                 <h3>fixed media</h3>
@@ -611,9 +629,11 @@ let content = {
                 <p><Link to="/projects/the-air-we-breathe-in-intimate-spaces"> the air we breathe in intimate spaces</Link> (2019) <em>for symphony orchestra</em></p>
 
 
-                <h3>web experiments</h3>
+                {/*<h3>web experiments</h3>
                 <p><Link to="/projects/2dim2sum"> 2dim2sum </Link> (2022) <em> web vr installation</em></p>
-                <p><Link to="/projects/breathing-bells"> breathing bells </Link> (2021) <em> web game </em></p>
+                <p><Link to="/projects/breathing-bells"> breathing bells </Link> (2021) <em> web game </em></p> */}
+
+            
             
             
             </div>
@@ -623,15 +643,9 @@ let content = {
     press: {
         body: (
             <div>
-                <p> 
-                    <a target="_blank" href="https://sinetheta.net/23.html"> Sine Theta Interview</a>
-                </p>
-                <p> 
-                    <a target="_blank" href="https://home.dartmouth.edu/news/2022/04/cooking-concert-rice"> Cooking Up a Concert - with Rice</a>
-                </p>
-                <p> 
-                    <a target="_blank" href="https://www.youtube.com/watch?v=inowSGLzq6A"> Dartmouth Alumni Research Award</a>
-                </p>
+                <p> <a target="_blank" href="https://sinetheta.net/23.html"> Sine Theta Interview</a></p>
+                <p> <a target="_blank" href="https://home.dartmouth.edu/news/2022/04/cooking-concert-rice"> Cooking Up a Concert - with Rice</a></p>
+                <p> <a target="_blank" href="https://www.youtube.com/watch?v=inowSGLzq6A"> Dartmouth Alumni Research Award</a></p>
 
 
 

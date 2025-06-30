@@ -34,7 +34,7 @@ export default class MainPage extends React.Component {
     const { isMobile, unProcessedCommands } = this.props;
     const commands = this.commandCreator(unProcessedCommands);
 
-if (isMobile) {
+if (isMobile) { /*MOBILEMOBILE-MOBILE-MOBILE-MOBILE-*/
 
   return (
     <div> 
