@@ -8,7 +8,7 @@ import Queue from "queue-fifo";
 
 
 // this is the overall structure of the website, that gets passed along into all of the child components
-const lastUpdated = "7/30/2024"; //LAST UPDATED WEBSITE
+const lastUpdated = "11/01/2025"; //LAST UPDATED WEBSITE
 
 
 const parseStructure = (structure) => { //SEARCHING FOR PAGES
@@ -16,6 +16,9 @@ const parseStructure = (structure) => { //SEARCHING FOR PAGES
   var returnedStructure = {};
   var bodies = {};
   var parents = {};
+
+ 
+
   for (const [section, value] of Object.entries(structure)) {
     queue.enqueue([section, value]);
     parents[section] = "/";
@@ -25,15 +28,16 @@ const parseStructure = (structure) => { //SEARCHING FOR PAGES
 
   while (queue.size()) {
     const [nextSection, nextValue] = queue.dequeue();
-    for (const [section, value] of Object.entries(nextValue)) {
+    for (const [section, value] of Object.entries(nextValue)) { 
       if (section === "body") {
         bodies[nextSection] = value;
-      } else {
+      } else if (typeof value === "object" && value !== null && !Array.isArray(value)) {
         queue.enqueue([section, value]);
         parents[section] = returnedStructure[nextSection];
         returnedStructure[section] =
           returnedStructure[nextSection] + "/" + section;
       }
+      // else: skip (for string/number/array properties like path, hashtags)
     }
   }
 
@@ -51,7 +55,7 @@ class App extends React.Component {
   render() {
     const { mobile } = this.props;
     const [newStructure, newParents, bodies] = parseStructure(structure);
-    console.log(bodies);
+    
     return (
       <BrowserRouter>
         <Route
