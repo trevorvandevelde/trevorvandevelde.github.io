@@ -40,12 +40,12 @@ let content = {
                     Trevor Van de Velde (he/him) is an experimental composer, sound artist, instrument builder, and creative programmer based in NYC. His practice is oriented toward exploring the relationship between technology, play, and hybridity through electroacoustic composition, custom-built electronics, and mixed-media. He is the recipient of the Nicola De Lorenzo Prize, Eisner Prize, Hopkins Center for the Arts Art+Technology grant, and the Rhizome Micro Grant. He has presented work internationally at festivals, institutions, and galleries such as MICF, Darmstadt Ferienkurse, DNMA, Fridman Gallery, Water Street Art Projects. In addition, he has collaborated with a variety of performers and ensembles such as JACK Quartet, Chromic Duo, Bergamot Quartet, Alarm Will Sound, Thin Edge Collective, Aksiom Ensemble, Tak Ensemble, and Jennifer Mong. He was previously an Art+Code Fellow at NEW INC. He is currently a doctoral candidate at NYU.
                 </p>
  
-                <center style={{ marginTop: "40px", fontSize: "1.2em" }}>
+                <div style={{ marginTop: "40px", fontSize: "1.2em" }}>
                     <p> <a href="mailto:trevorvandevelde@gmail.com">TREVORVANDEVELDE@GMAIL.COM</a></p>
                     <p> <a href="https://instagram.com/vantrevor" target="_blank" rel="noopener noreferrer"> INSTAGRAM</a></p>
 
 
-                </center>
+                </div>
 
             </div>
         ),
@@ -54,10 +54,11 @@ let content = {
         body: (
             <div>
                 <h3>Upcoming Events</h3>
-                <p>New York City, NY: 04/11/2025: Premiere of <em>Eating Silica</em> for Tak Ensemble at Center for Performance Research</p>
+                
                 <h3>Past Events</h3>
                 <p>Montreal, CA: 10/28/2025: Premiere of <em>COCKPIT</em> for Jennifer Mong at Floating Opera</p>
                 <p>Baltimore, MD: 10/23/2025: Performance of <em>SUPERLUBRICITY</em> at Peabody Conservatory</p>
+                <p>New York City, NY: 04/11/2025: Premiere of <em>Eating Silica</em> for Tak Ensemble at Center for Performance Research</p>
                 <p>New York City, NY: 01/31/2025: Hacking Grains x Food Mahjong x New Inc at Ace Hotel Brooklyn</p>
                 <p>New York City, NY: 11/21/2025: Solo Electronics at Center for Performance Research</p>
                 <p>Aarhus, Denmark: 06/11/2024: <em>SUPERLUBRICITY</em> for Aksiom Ensemble at the Danish New Music Academy</p>
@@ -75,6 +76,7 @@ let content = {
             </div>
         ),
     },
+
     contact: {
         body: (
             <div style={{marginTop: "20px", maxWidth: "350px", width: "100%", fontSize: "1.2em" }}>
@@ -127,7 +129,8 @@ let content = {
 
         "fwd-fwd-fwd-viral-zoom-video": {
             path: "/projects/fwd-fwd-fwd-viral-zoom-video",
-            hashtags: ["video", "zoom", "poetry project"],
+            hashtags: ["video", "zoom", "poetry project", 
+            "piper hill", "hamed sinno", "breath", "contagion"],
             year: 2021,
             body: (
                 <div>
@@ -179,8 +182,8 @@ let content = {
 
         "the-air-we-breathe-in-intimate-spaces": {
             path: "/projects/the-air-we-breathe-in-intimate-spaces",
-            hashtags: ["orchestra", "breath", "intimacy"],
-            year: 2021,
+            hashtags: ["orchestra", "breath", "uc berkeley symphony orchestra", "the air we breathe in intimate spaces"],
+            year: 2019,
             body: (
                 <div>
                     <p>orchestra</p>
@@ -196,7 +199,7 @@ let content = {
 
         "u-can-be-anything" : {  
             path: "/projects/u-can-be-anything",
-            hashtags: ["sinfonietta", "alarm will sound", "festival"],
+            hashtags: ["sinfonietta", "alarm will sound", "festival", "u can be anything", "mizzou"],
             year: 2023,
             body: (
                 <div>
@@ -243,7 +246,7 @@ let content = {
 
         "i-like-stringssss" : {  
             path: "/projects/i-like-stringssss",
-            hashtags: ["string quartet", "jack quartet", "bergamot quartet"],
+            hashtags: ["string quartet", "jack quartet", "bergamot quartet", "i like strings"],
             year: 2024,
             body: (
                 <div>
@@ -264,7 +267,7 @@ let content = {
 
         "pull-スレッド" : {  
             path: "/projects/pull-スレッド",
-            hashtags: ["cello"],
+            hashtags: ["cello", "robert hurley"],
             year: 2021,
             body: (
                 <div>
@@ -348,13 +351,17 @@ let content = {
          "COCKPIT" : {
             path: "/projects/cockpit",
             hashtags: ["cockpit", "jenn mong", "keyboards", "sampler"],
+            year: 2025,
             body: (
                 <div>
                     <p> solo sampler + electronics</p>
                     
                     <p>
-                    TBD
+                    COCKPIT is a collaborative performance project between Pianist Jenn Mong and Trevor Van de Velde that explores themes of technological embodiment, boyhood, cyborgs, and warfare through musical performance. This piece was inspired by the complicated history of YAMAHA Pianos as both a company that builds a variety of piano and keyboard instruments as well as being the top provider of agricultural drones in Japan. It is also inspired by my personal experiences as a child who grew up playing the piano, and treating it as a large mechanical machine and vehicle.
                     </p>
+
+                     <SharedPlayer url ="https://vimeo.com/1143230855?share=copy&fl=sv&fe=ci" controls = "true"></SharedPlayer>
+                
                     <p><em>COCKPIT is made possible by the generous support of RHIZOME</em></p>
 
                     
